@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "custom-exceptions",
+  "title": "Custom exceptions",
+  "kind": "core",
+  "curriculum": [
+    {
+      "pointer": "/tracks/0/weeks/2/days/3/topics/2",
+      "calendarDayIds": [
+        "F14"
+      ],
+      "relation": "exact"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "text": "Define a custom exception class with a constructor that takes a message and a cause"
+    },
+    {
+      "id": "o2",
+      "text": "Throw a custom exception for a broken business rule"
+    },
+    {
+      "id": "o3",
+      "text": "Wrap a low-level exception in a custom one without losing its cause"
+    }
+  ],
+  "prerequisites": [
+    "java-foundations/exceptions-and-logging/try-catch-finally-and-try-with-resources"
+  ],
+  "minutes": {
+    "aboutLabel": 14,
+    "budget": 14,
+    "modeledP50": 8.69,
+    "modeledWorstPath": 13.44,
+    "basis": "Measured in the exceptions-and-logging module PR on the authored artifact.html with the frozen authoring/tools/timing/estimate_reading.py (sha256 0deca96bf5e367aeae51a82abdbd4b6ce0d0289ecc9868c9eff3701016edf96f): modeledP50 8.69 (842 words, 26 code lines, interactions {\"confidence\": 2, \"drag\": 1, \"explore\": 1, \"mcq\": 1, \"predict\": 1}). modeledWorstPath 13.44 = P50 plus the worst required route per interactive unit: predict +0.25 min (reading every option's explanation); the Java editor unit +1.5 min (two assessed runs with incorrect boundary rules before Restart and a passing run); each lane-sort item +0.25 min (two wrong tries, then the revealed explanation, 6 item(s)); the apply check +1.5 min (two wrong graded attempts, reading the retry representation and both feedback sets). Budget and aboutLabel are ceil(max(P50, worst path)) under the new-course rule in authoring/docs/tools/validators.md, never below the intake value 10."
+  },
+  "artifacts": {
+    "html": {
+      "status": "present"
+    },
+    "md": {
+      "status": "present"
+    },
+    "pdf": {
+      "status": "absent",
+      "reason": "Not applicable: core topic with no print handout; the PDF applies only to pages derived from Reading source rows"
+    },
+    "gift": {
+      "status": "present"
+    },
+    "video": {
+      "status": "absent",
+      "reason": "Deferred: no video search was run for this first HTML build; a later companion pass of this module records the search and either a verified video or the reasons none fits"
+    },
+    "lab": {
+      "status": "absent",
+      "reason": "No topic coding lab planned at intake: the objectives are practised in the page's own simulators and the calendar day's platform coding-lab blocks; the module PR may propose a module lab under authoring/docs/lab-contract.md"
+    }
+  },
+  "freshness": {
+    "status": "unverified",
+    "checkedAt": null,
+    "sourcesRef": "authoring/evidence/java-foundations/exceptions-and-logging/custom-exceptions/sources.json",
+    "unverifiedItems": [
+      "Independent SME verification pending: the author checked each claim against the live official sources in sourcesRef (retrieved 2026-10-16) and confirmed every compiler message, stack trace and program output on OpenJDK 25.0.4.1 (Temurin); the module review SME critic verifies the authored bytes.",
+      "JDK version: aligned to JDK 25, the java-foundations pin; sources are the Java SE 25 documentation."
+    ]
+  },
+  "licensing": [],
+  "lab": "none",
+  "components": {
+    "mcq-with-confidence": "1",
+    "predict": "1"
+  }
+}

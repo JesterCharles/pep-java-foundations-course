@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "anti-joins-and-self-joins",
+  "title": "Anti-joins and self-joins",
+  "kind": "core",
+  "curriculum": [
+    {
+      "pointer": "/tracks/0/weeks/4/days/0/topics/2",
+      "calendarDayIds": [
+        "F21"
+      ],
+      "relation": "exact"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "text": "Find rows that have no matching row in another table with LEFT JOIN ... IS NULL or NOT EXISTS"
+    },
+    {
+      "id": "o2",
+      "text": "Join a table to itself with table aliases to relate rows of the same table, such as an employee and their manager"
+    },
+    {
+      "id": "o3",
+      "text": "Explain why NOT IN with a subquery that returns a NULL selects no rows"
+    }
+  ],
+  "prerequisites": [
+    "inner-and-left-joins"
+  ],
+  "minutes": {
+    "aboutLabel": 12,
+    "budget": 12,
+    "modeledP50": 8.6,
+    "modeledWorstPath": 11.93,
+    "basis": "modeledP50: P50 of the frozen authoring/tools/timing/estimate_reading.py (sha256 0deca96bf5e367aeae51a82abdbd4b6ce0d0289ecc9868c9eff3701016edf96f) on this artifact.html (1130 prose words, 13 code lines, interactions {\"predict\": 1, \"confidence\": 2, \"explore\": 2, \"mcq\": 1}). modeledWorstPath: P50 plus the worst required route per interactive unit: the prediction explanations (15 s), each SQL editor task run a second time after one wrong run (60 s each), and the apply check answered wrong once (65 s): 8.60 + 200 s = 11.93. budget and aboutLabel: ceil(max(modeledP50, modeledWorstPath)) = 12 per authoring/docs/tools/validators.md (Reading time, T14); raised from the intake target of 10 because the authored page's honest minimum is higher, never compressed."
+  },
+  "artifacts": {
+    "html": {
+      "status": "present"
+    },
+    "md": {
+      "status": "present"
+    },
+    "pdf": {
+      "status": "absent",
+      "reason": "Not applicable: core topic with no declared print handout; PDF handouts are for Reading topics"
+    },
+    "gift": {
+      "status": "present"
+    },
+    "video": {
+      "status": "absent",
+      "reason": "Not yet authored: deferred from the first HTML build of the crud-aggregates-and-joins module PR; HTML is the first deliverable."
+    },
+    "lab": {
+      "status": "absent",
+      "reason": "No topic coding lab: the planned crud-aggregates-and-joins module coding lab is not yet authored, so the objectives are practised in the page's bounded SQL editor activities."
+    }
+  },
+  "freshness": {
+    "status": "partially-verified",
+    "checkedAt": "2026-10-16",
+    "sourcesRef": "authoring/evidence/sql-jdbc-foundations/crud-aggregates-and-joins/anti-joins-and-self-joins/sources.json",
+    "unverifiedItems": [
+      "Sources fetched live on 2026-10-16 (HTTP 200, receipt in sourcesRef) and the page claims checked against the listed sections by the author; the module SME critic has not yet re-verified them.",
+      "Bounded-editor outputs were compared with the shared SQL simulator's real-PostgreSQL differential baseline and direct page smoke queries; the SME critic has not yet independently re-verified them."
+    ]
+  },
+  "licensing": [],
+  "lab": "module:crud-aggregates-and-joins",
+  "components": {}
+}

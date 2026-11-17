@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "reviewedSha256": "b1106f8d25e099a101d6d56f615ce75e76ac8fcb0c830f628043e1173afbf7da",
+  "checkedAt": "2026-11-09T18:33:43.415Z",
+  "sources": [
+    {
+      "url": "https://dev.java/learn/first-steps/first-java-code/getting-started/",
+      "retrievedAt": "2026-11-09T18:33:43.415Z",
+      "status": 200,
+      "finalUrl": "https://dev.java/learn/first-steps/first-java-code/getting-started/",
+      "sha256": "6c8800aa3495adeb92381676afe8cf1892c19e4e67ec023b090306758f2e11ce",
+      "sectionsUsed": [
+        "Dev.java, Getting Started with Java, sections on compiling and running: javac compiles a .java file into a .class file, printing nothing on success; java runs the class by its name; common compiler errors."
+      ]
+    },
+    {
+      "url": "https://dev.java/learn/first-steps/first-java-code/launch-simple-source-code-programs/",
+      "retrievedAt": "2026-11-09T18:33:43.415Z",
+      "status": 200,
+      "finalUrl": "https://dev.java/learn/first-steps/first-java-code/launch-simple-source-code-programs/",
+      "sha256": "a5f2c93691015215ea0c05e1a686226bb3859a0462ecbd23c94a3b5ffa59ce0d",
+      "sectionsUsed": [
+        "Dev.java, Launching Simple Source-Code Programs: java Hello.java compiles in memory and runs a single source file without writing a .class file; suited to small programs and scripts."
+      ]
+    },
+    {
+      "url": "https://openjdk.org/jeps/330",
+      "retrievedAt": "2026-11-09T18:33:43.415Z",
+      "status": 200,
+      "finalUrl": "https://openjdk.org/jeps/330",
+      "sha256": "d727475c40394fc914211c97bc01971f5209075b4ff2fd7e5e3c7e61bcb99155",
+      "sectionsUsed": [
+        "JEP 330, Launch Single-File Source-Code Programs: motivation and the java Hello.java launch mode."
+      ]
+    },
+    {
+      "url": "https://openjdk.org/jeps/512",
+      "retrievedAt": "2026-11-09T18:33:43.415Z",
+      "status": 200,
+      "finalUrl": "https://openjdk.org/jeps/512",
+      "sha256": "b3d725085e1b243110c937867aa3e345fb32161e076dd8084f8b5d36d6338189",
+      "sectionsUsed": [
+        "JEP 512, Compact Source Files and Instance Main Methods (final in JDK 25): compact source files exist; the page keeps the classic public static void main form."
+      ]
+    },
+    {
+      "url": "https://docs.oracle.com/en/java/javase/25/docs/specs/man/java.html",
+      "retrievedAt": "2026-11-09T18:33:43.415Z",
+      "status": 200,
+      "finalUrl": "https://docs.oracle.com/en/java/javase/25/docs/specs/man/java.html",
+      "sha256": "ec11b8ca0d227c1a93a964d5bcde71131a473797ffb7e809d35258fabe84eedd",
+      "sectionsUsed": [
+        "The java command (JDK 25), Synopsis and Using Source-File Mode to Launch Source-Code Programs: java runs a class by name, or a .java source file directly in source-file mode."
+      ]
+    },
+    {
+      "url": "https://docs.oracle.com/en/java/javase/25/docs/specs/man/javac.html",
+      "retrievedAt": "2026-11-09T18:33:43.415Z",
+      "status": 200,
+      "finalUrl": "https://docs.oracle.com/en/java/javase/25/docs/specs/man/javac.html",
+      "sha256": "95641f9082f4111dc170d1d98dc496860d65248eea528e0d1184563caf9629d0",
+      "sectionsUsed": [
+        "The javac command (JDK 25), Description: javac reads source files and compiles them into class files."
+      ]
+    },
+    {
+      "url": "https://www.jetbrains.com/help/idea/creating-and-running-your-first-java-application.html",
+      "retrievedAt": "2026-11-09T18:33:43.415Z",
+      "status": 200,
+      "finalUrl": "https://www.jetbrains.com/help/idea/creating-and-running-your-first-java-application.html",
+      "sha256": "c26f4218270bcb8af6d2b6ee734394912ee86151a7c57445d21c4226ac3a1437",
+      "sectionsUsed": [
+        "IntelliJ IDEA help, Create your first Java application: running a main class from the IDE."
+      ]
+    }
+  ]
+}

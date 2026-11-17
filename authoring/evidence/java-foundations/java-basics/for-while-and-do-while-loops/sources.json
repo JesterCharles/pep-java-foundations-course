@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "reviewedSha256": "8729c9e44d181e666f3e8304c056b070640bf171d06a25746adb4f8c5a69a9f5",
+  "checkedAt": "2026-11-09T18:33:46.270Z",
+  "sources": [
+    {
+      "url": "https://docs.oracle.com/javase/specs/jls/se25/html/jls-14.html",
+      "retrievedAt": "2026-11-09T18:33:46.270Z",
+      "status": 200,
+      "finalUrl": "https://docs.oracle.com/javase/specs/jls/se25/html/jls-14.html",
+      "sha256": "4ab826cd0c501f7e85f3931daec684f1061ee49d94b3fc41cec522b18402a222",
+      "sectionsUsed": [
+        "JLS SE 25, 14.12 while, 14.13 do, 14.14 for, 14.15 break and 14.16 continue: a while checks before each pass, a do runs the body once before checking, for has init, condition and update; break leaves the loop and continue skips to the next pass."
+      ]
+    },
+    {
+      "url": "https://dev.java/learn/language/constructs/basics/controlling-flow/",
+      "retrievedAt": "2026-11-09T18:33:46.270Z",
+      "status": 200,
+      "finalUrl": "https://dev.java/learn/language/constructs/basics/controlling-flow/",
+      "sha256": "2c9af05f15935e6fab70baf0f3a7708492c0c72f7b095a6b97dc20ff57f12650",
+      "sectionsUsed": [
+        "Dev.java, Control Flow Statements: if-then-else chains; while, do-while and for loops; break and continue statements."
+      ]
+    }
+  ]
+}

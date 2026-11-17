@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "reviewedSha256": "0346343838db41d8a12c03ec324d34b7f49cd7b023c5361456508d20de11a4cd",
+  "checkedAt": "2026-11-09T17:07:24.465Z",
+  "sources": [
+    {
+      "url": "https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent",
+      "retrievedAt": "2026-11-09T17:07:24.465Z",
+      "status": 200,
+      "finalUrl": "https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent",
+      "sha256": "5ff0d0cd5cd9289ebbc2a229fe3578305c8293f6304dc8c96f1b08f0ce610857",
+      "sectionsUsed": [
+        "whole page"
+      ]
+    },
+    {
+      "url": "https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account",
+      "retrievedAt": "2026-11-09T17:07:24.465Z",
+      "status": 200,
+      "finalUrl": "https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account",
+      "sha256": "1d105eccf4b7498945a46cc48ee23ce5661e86c4483c995298eafbf42c0aaee7",
+      "sectionsUsed": [
+        "whole page"
+      ]
+    },
+    {
+      "url": "https://docs.github.com/en/authentication/troubleshooting-ssh/error-permission-denied-publickey",
+      "retrievedAt": "2026-11-09T17:07:24.465Z",
+      "status": 200,
+      "finalUrl": "https://docs.github.com/en/authentication/troubleshooting-ssh/error-permission-denied-publickey",
+      "sha256": "4e7a5851d6d4886d44fa4318ab89cbd71e3b2e3a123c905bc7fc11a7db6bb880",
+      "sectionsUsed": [
+        "whole page"
+      ]
+    },
+    {
+      "url": "https://git-scm.com/docs/git-clone",
+      "retrievedAt": "2026-11-09T17:07:24.465Z",
+      "status": 200,
+      "finalUrl": "https://git-scm.com/docs/git-clone",
+      "sha256": "bf47cd00dd014b4159af5b4ceb2cbccd3bdb66d6f7e0f01c1562c419e0fa1807",
+      "sectionsUsed": [
+        "description"
+      ]
+    },
+    {
+      "url": "https://git-scm.com/docs/git-fetch",
+      "retrievedAt": "2026-11-09T17:07:24.465Z",
+      "status": 200,
+      "finalUrl": "https://git-scm.com/docs/git-fetch",
+      "sha256": "908ec0712ef80b65df0d4abd57503c975a42af6b50d5970aeca93ef134e65a66",
+      "sectionsUsed": [
+        "description"
+      ]
+    },
+    {
+      "url": "https://git-scm.com/docs/git-pull",
+      "retrievedAt": "2026-11-09T17:07:24.465Z",
+      "status": 200,
+      "finalUrl": "https://git-scm.com/docs/git-pull",
+      "sha256": "8c9289248f6ff1079de034ebc11562688ad87fe6d76f9ecb8e27c22db25e14ff",
+      "sectionsUsed": [
+        "description"
+      ]
+    },
+    {
+      "url": "https://git-scm.com/docs/git-push",
+      "retrievedAt": "2026-11-09T17:07:24.465Z",
+      "status": 200,
+      "finalUrl": "https://git-scm.com/docs/git-push",
+      "sha256": "2e451f3ceb4558bd8e40edafa157a5b7c1fd8b366f22d77340c1767dd44cf5ee",
+      "sectionsUsed": [
+        "note about fast forwards"
+      ]
+    }
+  ]
+}

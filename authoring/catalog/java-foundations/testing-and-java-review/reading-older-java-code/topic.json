@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "reading-older-java-code",
+  "title": "Reading older Java code (8, 11, 17)",
+  "kind": "review",
+  "curriculum": [
+    {
+      "pointer": "/tracks/0/weeks/3/days/2/topics/1",
+      "calendarDayIds": [
+        "F18"
+      ],
+      "relation": "exact"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "text": "Recognize which Java release a feature needs, such as lambdas (8), var (10), switch expressions (14) and records (16)"
+    },
+    {
+      "id": "o2",
+      "text": "Rewrite an older idiom, such as an anonymous class or a colon switch, in its modern form"
+    },
+    {
+      "id": "o3",
+      "text": "Inspect a short Java 8, 11 or 17 example, predict whether it compiles on JDK 25, and name the feature or migration issue behind the prediction"
+    }
+  ],
+  "prerequisites": [
+    "java-foundations/testing-and-java-review/java-review",
+    "java-foundations/http-and-javalin/lambdas-as-handlers",
+    "java-foundations/inheritance-and-design/records"
+  ],
+  "minutes": {
+    "aboutLabel": 11,
+    "budget": 11,
+    "modeledP50": 8.72,
+    "modeledWorstPath": 10.72,
+    "basis": "Measured on 2026-11-08 from the final artifact bytes. modeledP50: p50 of authoring/tools/timing/estimate_reading.py on the current artifact.html. modeledWorstPath: modeledP50 plus 2.0 minutes for the worst required route (the wrong-twice route): reading the feedback on a wrong release prediction (0.5), two failing runs of the NamesTest editor with Problems and Output read each time (1.0), and the wrong-first compile prediction retried (0.5). aboutLabel and budget equal the page's own about label, which is at least ceil(max(modeledP50, modeledWorstPath)) and within the 15 minute ceiling."
+  },
+  "artifacts": {
+    "html": {
+      "status": "present"
+    },
+    "md": {
+      "status": "present"
+    },
+    "pdf": {
+      "status": "absent",
+      "reason": "Not applicable: review topic; review topics carry HTML and Markdown only"
+    },
+    "gift": {
+      "status": "absent",
+      "reason": "Not applicable: review topic; the review page is itself retrieval practice, so review topics carry HTML and Markdown only"
+    },
+    "video": {
+      "status": "absent",
+      "reason": "Not applicable: review topic; review topics carry HTML and Markdown only"
+    },
+    "lab": {
+      "status": "absent",
+      "reason": "No topic coding lab planned at intake: the objectives are practised in the page's own simulators and the calendar day's platform coding-lab blocks; the module PR may propose a module lab under authoring/docs/lab-contract.md"
+    }
+  },
+  "freshness": {
+    "status": "partially-verified",
+    "checkedAt": "2026-11-08",
+    "sourcesRef": "authoring/evidence/java-foundations/testing-and-java-review/reading-older-java-code/sources.json",
+    "unverifiedItems": [
+      "Sources were fetched live by the implementation owner on 2026-11-08 (HTTP status, final URL and hash in sourcesRef); no independent SME critic re-verified the claims under the minimum acceptance profile.",
+      "The in-page practice runner is a bounded model of Java, JUnit Jupiter and Mockito; its behavior was checked by the implementation owner only, not by an independent SME critic or against javac and the JUnit Platform for every input.",
+      "Compatibility is not assumed: older source often, but not always, compiles on JDK 25; removed APIs, tools, options and dependencies can break it (intake reconciliation education-05, java-sme-002)."
+    ]
+  },
+  "licensing": [],
+  "lab": "none",
+  "components": {}
+}

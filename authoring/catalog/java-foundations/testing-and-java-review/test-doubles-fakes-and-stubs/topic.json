@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "test-doubles-fakes-and-stubs",
+  "title": "Test doubles: fakes and stubs",
+  "kind": "core",
+  "curriculum": [
+    {
+      "pointer": "/tracks/0/weeks/3/days/1/topics/1",
+      "calendarDayIds": [
+        "F17"
+      ],
+      "relation": "exact"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "text": "Replace a dependency with a hand-written fake that works in memory"
+    },
+    {
+      "id": "o2",
+      "text": "Write a stub that returns canned answers for a test"
+    },
+    {
+      "id": "o3",
+      "text": "Explain why depending on an interface makes a class testable"
+    }
+  ],
+  "prerequisites": [
+    "java-foundations/testing-and-java-review/junit-test-first",
+    "java-foundations/inheritance-and-design/solid-basics"
+  ],
+  "minutes": {
+    "aboutLabel": 15,
+    "budget": 15,
+    "modeledP50": 12.3,
+    "modeledWorstPath": 14.3,
+    "basis": "Measured on 2026-11-08 from the final artifact bytes. modeledP50: p50 of authoring/tools/timing/estimate_reading.py on the current artifact.html. modeledWorstPath: modeledP50 plus 2.0 minutes for the worst required route (the wrong-twice route): reading the feedback on a wrong prediction (0.5), one extra failing run in each of the stub and fake editors with Problems and Output read (0.5 each), and the wrong-first testability choice retried (0.5). aboutLabel and budget equal the page's own about label, which is at least ceil(max(modeledP50, modeledWorstPath)) and within the 15 minute ceiling."
+  },
+  "artifacts": {
+    "html": {
+      "status": "present"
+    },
+    "md": {
+      "status": "present"
+    },
+    "pdf": {
+      "status": "absent",
+      "reason": "Not applicable: core topic with no print handout; the PDF applies only to pages derived from Reading source rows"
+    },
+    "gift": {
+      "status": "present"
+    },
+    "video": {
+      "status": "absent",
+      "reason": "Deferred under the tonight minimum acceptance profile: no video search was run for this topic and no unverified video is linked; the page carries its full explanation itself."
+    },
+    "lab": {
+      "status": "absent",
+      "reason": "No topic coding lab planned at intake: the objectives are practised in the page's own simulators and the calendar day's platform coding-lab blocks; the module PR may propose a module lab under authoring/docs/lab-contract.md"
+    }
+  },
+  "freshness": {
+    "status": "partially-verified",
+    "checkedAt": "2026-11-08",
+    "sourcesRef": "authoring/evidence/java-foundations/testing-and-java-review/test-doubles-fakes-and-stubs/sources.json",
+    "unverifiedItems": [
+      "Sources were fetched live by the implementation owner on 2026-11-08 (HTTP status, final URL and hash in sourcesRef); no independent SME critic re-verified the claims under the minimum acceptance profile.",
+      "The in-page practice runner is a bounded model of Java, JUnit Jupiter and Mockito; its behavior was checked by the implementation owner only, not by an independent SME critic or against javac and the JUnit Platform for every input.",
+      "The terms fake and stub have no first-party definition in the JUnit or Mockito documentation; the page defines them as course vocabulary."
+    ]
+  },
+  "licensing": [],
+  "lab": "none",
+  "components": {}
+}

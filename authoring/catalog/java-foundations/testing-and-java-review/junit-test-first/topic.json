@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "junit-test-first",
+  "title": "Unit tests with JUnit, written test-first: arrange, act, assert, assertThrows",
+  "kind": "core",
+  "curriculum": [
+    {
+      "pointer": "/tracks/0/weeks/3/days/1/topics/0",
+      "calendarDayIds": [
+        "F17"
+      ],
+      "relation": "exact"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "text": "Write a failing JUnit test before the code, then make it pass"
+    },
+    {
+      "id": "o2",
+      "text": "Structure a test as arrange, act and assert with assertEquals and assertTrue"
+    },
+    {
+      "id": "o3",
+      "text": "Test that code throws the expected exception with assertThrows"
+    }
+  ],
+  "prerequisites": [
+    "java-foundations/exceptions-and-logging/custom-exceptions",
+    "java-foundations/java-basics/installing-java-and-the-ide"
+  ],
+  "minutes": {
+    "aboutLabel": 11,
+    "budget": 11,
+    "modeledP50": 8.92,
+    "modeledWorstPath": 10.92,
+    "basis": "Measured on 2026-11-08 from the final artifact bytes. modeledP50: p50 of authoring/tools/timing/estimate_reading.py on the current artifact.html. modeledWorstPath: modeledP50 plus 2.0 minutes for the worst required route (the wrong-twice route): reading the feedback on a wrong prediction (0.5), one extra failing run in each of the two test editors with Problems and Output read (0.5 each), and re-reading the assertThrows explanation after a failing run (0.5). aboutLabel and budget equal the page's own about label, which is at least ceil(max(modeledP50, modeledWorstPath)) and within the 15 minute ceiling."
+  },
+  "artifacts": {
+    "html": {
+      "status": "present"
+    },
+    "md": {
+      "status": "present"
+    },
+    "pdf": {
+      "status": "absent",
+      "reason": "Not applicable: core topic with no print handout; the PDF applies only to pages derived from Reading source rows"
+    },
+    "gift": {
+      "status": "present"
+    },
+    "video": {
+      "status": "absent",
+      "reason": "Deferred under the tonight minimum acceptance profile: no video search was run for this topic and no unverified video is linked; the page carries its full explanation itself."
+    },
+    "lab": {
+      "status": "absent",
+      "reason": "No topic coding lab planned at intake: the objectives are practised in the page's own simulators and the calendar day's platform coding-lab blocks; the module PR may propose a module lab under authoring/docs/lab-contract.md"
+    }
+  },
+  "freshness": {
+    "status": "partially-verified",
+    "checkedAt": "2026-11-08",
+    "sourcesRef": "authoring/evidence/java-foundations/testing-and-java-review/junit-test-first/sources.json",
+    "unverifiedItems": [
+      "Sources were fetched live by the implementation owner on 2026-11-08 (HTTP status, final URL and hash in sourcesRef); no independent SME critic re-verified the claims under the minimum acceptance profile.",
+      "The in-page practice runner is a bounded model of Java, JUnit Jupiter and Mockito; its behavior was checked by the implementation owner only, not by an independent SME critic or against javac and the JUnit Platform for every input."
+    ]
+  },
+  "licensing": [],
+  "lab": "none",
+  "components": {}
+}

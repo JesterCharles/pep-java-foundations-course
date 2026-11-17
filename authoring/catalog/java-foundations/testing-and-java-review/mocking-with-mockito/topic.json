@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "mocking-with-mockito",
+  "title": "Mocking with Mockito",
+  "kind": "core",
+  "curriculum": [
+    {
+      "pointer": "/tracks/0/weeks/3/days/1/topics/2",
+      "calendarDayIds": [
+        "F17"
+      ],
+      "relation": "exact"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "text": "Create a mock and stub a method with when(...).thenReturn(...)"
+    },
+    {
+      "id": "o2",
+      "text": "Verify that a method was called with expected arguments"
+    },
+    {
+      "id": "o3",
+      "text": "Decide when a hand-written fake is clearer than a mock"
+    }
+  ],
+  "prerequisites": [
+    "java-foundations/testing-and-java-review/test-doubles-fakes-and-stubs"
+  ],
+  "minutes": {
+    "aboutLabel": 13,
+    "budget": 13,
+    "modeledP50": 10.82,
+    "modeledWorstPath": 12.82,
+    "basis": "Measured on 2026-11-08 from the final artifact bytes. modeledP50: p50 of authoring/tools/timing/estimate_reading.py on the current artifact.html. modeledWorstPath: modeledP50 plus 2.0 minutes for the worst required route (the wrong-twice route): reading the feedback on a wrong prediction (0.5), two failing runs of the CheckoutTest editor with Problems and Output read each time (1.0), and the wrong-first mock-or-fake choice retried (0.5). aboutLabel and budget equal the page's own about label, which is at least ceil(max(modeledP50, modeledWorstPath)) and within the 15 minute ceiling."
+  },
+  "artifacts": {
+    "html": {
+      "status": "present"
+    },
+    "md": {
+      "status": "present"
+    },
+    "pdf": {
+      "status": "absent",
+      "reason": "Not applicable: core topic with no print handout; the PDF applies only to pages derived from Reading source rows"
+    },
+    "gift": {
+      "status": "present"
+    },
+    "video": {
+      "status": "absent",
+      "reason": "Deferred under the tonight minimum acceptance profile: no video search was run for this topic and no unverified video is linked; the page carries its full explanation itself."
+    },
+    "lab": {
+      "status": "absent",
+      "reason": "No topic coding lab planned at intake: the objectives are practised in the page's own simulators and the calendar day's platform coding-lab blocks; the module PR may propose a module lab under authoring/docs/lab-contract.md"
+    }
+  },
+  "freshness": {
+    "status": "partially-verified",
+    "checkedAt": "2026-11-08",
+    "sourcesRef": "authoring/evidence/java-foundations/testing-and-java-review/mocking-with-mockito/sources.json",
+    "unverifiedItems": [
+      "Sources were fetched live by the implementation owner on 2026-11-08 (HTTP status, final URL and hash in sourcesRef); no independent SME critic re-verified the claims under the minimum acceptance profile.",
+      "The in-page practice runner is a bounded model of Java, JUnit Jupiter and Mockito; its behavior was checked by the implementation owner only, not by an independent SME critic or against javac and the JUnit Platform for every input."
+    ]
+  },
+  "licensing": [],
+  "lab": "none",
+  "components": {}
+}

@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "declaring-and-looping-over-arrays",
+  "title": "Declaring and looping over arrays",
+  "kind": "core",
+  "curriculum": [
+    {
+      "pointer": "/tracks/0/weeks/1/days/2/topics/0",
+      "calendarDayIds": [
+        "F8"
+      ],
+      "relation": "exact"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "text": "Declare, create and initialize an array, and read and write elements by index"
+    },
+    {
+      "id": "o2",
+      "text": "Loop over an array with an index-based for loop and an enhanced for loop, choosing between them"
+    },
+    {
+      "id": "o3",
+      "text": "Reverse an array in place with two indexes and predict when an index throws ArrayIndexOutOfBoundsException"
+    }
+  ],
+  "prerequisites": [
+    "java-foundations/java-basics/for-while-and-do-while-loops",
+    "java-foundations/methods-and-recursion/two-pointers-reversing-and-counting"
+  ],
+  "minutes": {
+    "aboutLabel": 13,
+    "budget": 13,
+    "modeledP50": 9.04,
+    "modeledWorstPath": 12.04,
+    "basis": "Measured on 2026-11-07 from the final corrected artifact bytes. modeledP50: p50 of authoring/tools/timing/estimate_reading.py on the current artifact.html. modeledWorstPath: modeledP50 plus 3.0 minutes for the worst required route (the wrong-twice route): reading the feedback on a wrong prediction (0.5), one wrong step and its feedback in the exploration (0.5), two non-matching editor runs with Problems and Output read each time (1.5), and the apply retry in its second form (0.5). aboutLabel and budget = ceil(max(modeledP50, modeledWorstPath)), within the 15 minute ceiling."
+  },
+  "artifacts": {
+    "html": {
+      "status": "present"
+    },
+    "md": {
+      "status": "present"
+    },
+    "pdf": {
+      "status": "absent",
+      "reason": "Not applicable: core topic with no print handout; the PDF applies only to pages derived from Reading source rows"
+    },
+    "gift": {
+      "status": "present"
+    },
+    "video": {
+      "status": "absent",
+      "reason": "Deferred by the module author checkpoint: no video search was run for this checkpoint, and no unverified video is linked; the page carries its full explanation itself."
+    },
+    "lab": {
+      "status": "absent",
+      "reason": "No topic coding lab planned at intake: the objectives are practised in the page's own simulators and the calendar day's platform coding-lab blocks; the module PR may propose a module lab under authoring/docs/lab-contract.md"
+    }
+  },
+  "freshness": {
+    "status": "partially-verified",
+    "checkedAt": "2026-11-07",
+    "sourcesRef": "authoring/evidence/java-foundations/arrays-lists-and-maps/declaring-and-looping-over-arrays/sources.json",
+    "unverifiedItems": [
+      "Sources were fetched live by the author on 2026-11-07 (HTTP 200, receipt in sourcesRef); focused Java-SME re-review of the changed claims is pending.",
+      "The bounded interpreter differential and the page examples were rechecked by the author with OpenJDK 25.0.5; focused Java-SME re-review is pending."
+    ]
+  },
+  "licensing": [],
+  "lab": "none",
+  "components": {}
+}

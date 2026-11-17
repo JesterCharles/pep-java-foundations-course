@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "try-catch-finally-and-try-with-resources",
+  "title": "try/catch/finally and try-with-resources",
+  "kind": "core",
+  "curriculum": [
+    {
+      "pointer": "/tracks/0/weeks/2/days/3/topics/1",
+      "calendarDayIds": [
+        "F14"
+      ],
+      "relation": "exact"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "text": "Catch a specific exception and order catch blocks from most to least specific"
+    },
+    {
+      "id": "o2",
+      "text": "Predict when a finally block runs"
+    },
+    {
+      "id": "o3",
+      "text": "Close a resource automatically with try-with-resources"
+    }
+  ],
+  "prerequisites": [
+    "java-foundations/exceptions-and-logging/checked-vs-unchecked-exceptions"
+  ],
+  "minutes": {
+    "aboutLabel": 15,
+    "budget": 15,
+    "modeledP50": 9.52,
+    "modeledWorstPath": 14.27,
+    "basis": "Measured in the exceptions-and-logging module PR on the authored artifact.html with the frozen authoring/tools/timing/estimate_reading.py (sha256 0deca96bf5e367aeae51a82abdbd4b6ce0d0289ecc9868c9eff3701016edf96f): modeledP50 9.52 (1101 words, 19 code lines, interactions {\"confidence\": 2, \"drag\": 1, \"explore\": 1, \"mcq\": 1, \"predict\": 1}). modeledWorstPath 14.27 = P50 plus the worst required route per interactive unit: predict +0.25 min (reading every option's explanation); the catch-order Java editor unit +1.5 min (a run that still fails with \"has already been caught\" and a run that leaves ArithmeticException uncaught before all three inputs match); each lane-sort item +0.25 min (two wrong tries, then the revealed explanation, 6 item(s)); the final production and output unit +1.5 min (correcting an invalid composed method, then making two wrong output attempts and reading the retry representation and feedback). Budget and aboutLabel are ceil(max(P50, worst path)) under the new-course rule in authoring/docs/tools/validators.md, never below the intake value 10."
+  },
+  "artifacts": {
+    "html": {
+      "status": "present"
+    },
+    "md": {
+      "status": "present"
+    },
+    "pdf": {
+      "status": "absent",
+      "reason": "Not applicable: core topic with no print handout; the PDF applies only to pages derived from Reading source rows"
+    },
+    "gift": {
+      "status": "present"
+    },
+    "video": {
+      "status": "absent",
+      "reason": "Deferred: no video search was run for this first HTML build; a later companion pass of this module records the search and either a verified video or the reasons none fits"
+    },
+    "lab": {
+      "status": "absent",
+      "reason": "No topic coding lab planned at intake: the objectives are practised in the page's own simulators and the calendar day's platform coding-lab blocks; the module PR may propose a module lab under authoring/docs/lab-contract.md"
+    }
+  },
+  "freshness": {
+    "status": "unverified",
+    "checkedAt": null,
+    "sourcesRef": "authoring/evidence/java-foundations/exceptions-and-logging/try-catch-finally-and-try-with-resources/sources.json",
+    "unverifiedItems": [
+      "Independent SME verification pending: the author checked each claim against the live official sources in sourcesRef (retrieved 2026-10-16) and confirmed every compiler message, stack trace and program output on OpenJDK 25.0.4.1 (Temurin); the module review SME critic verifies the authored bytes.",
+      "JDK version: aligned to JDK 25, the java-foundations pin; sources are the Java SE 25 documentation."
+    ]
+  },
+  "licensing": [],
+  "lab": "none",
+  "components": {
+    "mcq-with-confidence": "1",
+    "predict": "1"
+  }
+}

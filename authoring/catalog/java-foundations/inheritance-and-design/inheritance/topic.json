@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "inheritance",
+  "title": "Inheritance",
+  "kind": "core",
+  "curriculum": [
+    {
+      "pointer": "/tracks/0/weeks/2/days/1/topics/0",
+      "calendarDayIds": [
+        "F12"
+      ],
+      "relation": "exact"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "text": "Extend a class and reuse its fields and methods in the subclass"
+    },
+    {
+      "id": "o2",
+      "text": "Call a superclass constructor with super(...) and predict the order of constructor calls"
+    },
+    {
+      "id": "o3",
+      "text": "Recognize an is-a relationship that justifies inheritance"
+    }
+  ],
+  "prerequisites": [
+    "java-foundations/classes-and-objects/constructors",
+    "java-foundations/classes-and-objects/access-modifiers"
+  ],
+  "minutes": {
+    "aboutLabel": 14,
+    "budget": 14,
+    "modeledP50": 8.6,
+    "modeledWorstPath": 13.35,
+    "basis": "Measured in the inheritance-and-design module PR on the authored artifact.html with the frozen authoring/tools/timing/estimate_reading.py (sha256 0deca96bf5e367aeae51a82abdbd4b6ce0d0289ecc9868c9eff3701016edf96f): modeledP50 8.6 (769 words, 30 code lines, interactions {\"confidence\":2,\"drag\":1,\"explore\":1,\"mcq\":1,\"predict\":1}). modeledWorstPath 13.35 = P50 plus the worst required route per interactive unit: predict +0.25 min (reading every option's explanation); the Java practice editor +1.5 min (two counted runs that do not match before the activity settles, with their Problems or Output); each sort item +0.25 min (two wrong tries, then the revealed explanation, 6 items); the apply check +1.5 min (two wrong graded attempts, the retry representation and both feedback sets). Budget and aboutLabel are ceil(max(P50, worst path)) under the new-course rule in authoring/docs/tools/validators.md, within the 15 minute cap."
+  },
+  "artifacts": {
+    "html": {
+      "status": "present"
+    },
+    "md": {
+      "status": "present"
+    },
+    "pdf": {
+      "status": "absent",
+      "reason": "Not applicable: core topic with no print handout; the PDF applies only to pages derived from Reading source rows"
+    },
+    "gift": {
+      "status": "present"
+    },
+    "video": {
+      "status": "absent",
+      "reason": "Not searched in this first build: no video has been verified against the sources, so none is linked"
+    },
+    "lab": {
+      "status": "absent",
+      "reason": "No topic coding lab planned at intake: the objectives are practised in the page's own simulators and the calendar day's platform coding-lab blocks; the module PR may propose a module lab under authoring/docs/lab-contract.md"
+    }
+  },
+  "freshness": {
+    "status": "unverified",
+    "checkedAt": null,
+    "sourcesRef": "authoring/evidence/java-foundations/inheritance-and-design/inheritance/sources.json",
+    "unverifiedItems": [
+      "Authored 2026-10-16 against the live official sources in authoring/evidence/java-foundations/inheritance-and-design/inheritance/sources.json, with every program output and compiler message on the page confirmed on OpenJDK 25.0.4.1 (Eclipse Temurin) except the practice editor, last revised on 2026-11-07, which models only the Java subset its task uses and whose responses were checked on sample inputs against OpenJDK 25.0.5 (Eclipse Temurin); independent education and Java SME review of these exact bytes is still pending, so the page is not yet marked verified."
+    ]
+  },
+  "licensing": [],
+  "lab": "none",
+  "components": {
+    "predict": "1",
+    "mcq-with-confidence": "1"
+  }
+}

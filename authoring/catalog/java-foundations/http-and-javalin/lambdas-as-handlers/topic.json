@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "lambdas-as-handlers",
+  "title": "Lambdas as handlers: shorthand for functional interfaces",
+  "kind": "core",
+  "curriculum": [
+    {
+      "pointer": "/tracks/0/weeks/2/days/4/topics/3",
+      "calendarDayIds": [
+        "F15"
+      ],
+      "relation": "exact"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "text": "Rewrite an anonymous class handler as a lambda"
+    },
+    {
+      "id": "o2",
+      "text": "Explain that a lambda implements the single abstract method of a functional interface"
+    },
+    {
+      "id": "o3",
+      "text": "Replace a simple lambda with a method reference"
+    }
+  ],
+  "prerequisites": [
+    "java-foundations/http-and-javalin/routes-and-handlers-in-javalin",
+    "java-foundations/inheritance-and-design/functional-interfaces-and-anonymous-classes"
+  ],
+  "minutes": {
+    "aboutLabel": 15,
+    "budget": 15,
+    "modeledP50": 8.92,
+    "modeledWorstPath": 14.92,
+    "basis": "Measured in the http-and-javalin module PR on the authored artifact.html with the frozen authoring/tools/timing/estimate_reading.py (sha256 0deca96bf5e367aeae51a82abdbd4b6ce0d0289ecc9868c9eff3701016edf96f): modeledP50 8.92 (900 words, 20 code lines, interactions {\"confidence\": 2, \"drag\": 1, \"explore\": 2, \"mcq\": 1, \"predict\": 1}). modeledWorstPath 14.92 = P50 plus the worst required route per interactive unit: the predict unit +0.25 min in all (reading every option's explanation); the lambda-rewrite editor unit +1.5 min in all (rewriting both anonymous classes, for GET /hello and GET /bye, as lambdas, then two runs that fail to compile or keep an old form before both rewrites pass); the functional-interface sort unit +1.25 min in all (5 items × 0.25 min: two wrong tries, then the revealed explanation, for each item); the method-reference editor unit +1.5 min in all (typing two method references, then two runs that fail to compile or keep a lambda before both pass); the apply check +1.5 min in all (two wrong graded attempts, reading the retry representation and both feedback sets). Budget and aboutLabel are ceil(max(P50, worst path)) under the new-course rule in authoring/docs/tools/validators.md, raised from the intake planning value 15 and within the 15-minute cap."
+  },
+  "artifacts": {
+    "html": {
+      "status": "present"
+    },
+    "md": {
+      "status": "present"
+    },
+    "pdf": {
+      "status": "absent",
+      "reason": "Not applicable: core topic with no print handout; the PDF applies only to pages derived from Reading source rows"
+    },
+    "gift": {
+      "status": "present"
+    },
+    "video": {
+      "status": "absent",
+      "reason": "First-build scope: the http-and-javalin module PR delivers the learner HTML only (captain intent: produce the four canonical learner HTML artifacts now); no video search was run in this pass; a verified video or a recorded search follows in the companion pass"
+    },
+    "lab": {
+      "status": "absent",
+      "reason": "No topic coding lab planned at intake: the objectives are practised in the page's own simulators and the calendar day's platform coding-lab blocks; the module PR may propose a module lab under authoring/docs/lab-contract.md"
+    }
+  },
+  "freshness": {
+    "status": "unverified",
+    "checkedAt": "2026-10-16",
+    "sourcesRef": "authoring/evidence/java-foundations/http-and-javalin/lambdas-as-handlers/sources.json",
+    "unverifiedItems": [
+      "Independent SME verification pending: the author checked each claim against the live official sources in sourcesRef (retrieved 2026-10-16); the module PR's SME critic verifies the authored bytes.",
+      "Simulator fidelity: the in-page editors simulate a bounded subset of the target behaviour (browser JSON.parse for JSON; a Javalin 7.2.3 routing, Context and exception-mapping model for Java); no program output on this page was produced by a real JDK or Javalin run."
+    ]
+  },
+  "licensing": [],
+  "lab": "none",
+  "components": {
+    "mcq-with-confidence": "1",
+    "predict": "1"
+  }
+}

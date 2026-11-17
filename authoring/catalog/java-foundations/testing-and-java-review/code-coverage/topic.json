@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "code-coverage",
+  "title": "Reading: code coverage",
+  "kind": "reading",
+  "curriculum": [
+    {
+      "pointer": "/tracks/0/weeks/3/days/1/topics/3",
+      "calendarDayIds": [
+        "F17"
+      ],
+      "relation": "exact"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "text": "Read a JaCoCo report for line and branch coverage"
+    },
+    {
+      "id": "o2",
+      "text": "Explain why high coverage does not prove code is correct"
+    },
+    {
+      "id": "o3",
+      "text": "Find an untested branch and add a test for it"
+    }
+  ],
+  "prerequisites": [
+    "java-foundations/testing-and-java-review/junit-test-first"
+  ],
+  "minutes": {
+    "aboutLabel": 13,
+    "budget": 13,
+    "modeledP50": 10.41,
+    "modeledWorstPath": 12.91,
+    "basis": "Measured on 2026-11-08 from the final artifact bytes. modeledP50: p50 of authoring/tools/timing/estimate_reading.py on the current artifact.html. modeledWorstPath: modeledP50 plus 2.5 minutes for the worst required route (the wrong-twice route): reading the feedback on a wrong prediction (0.5), two failing runs of the ShippingTest editor with Problems, Output and the coverage view read each time (1.5), and the wrong-first explanation activity retried in its second form (0.5). aboutLabel and budget equal the page's own about label, which is at least ceil(max(modeledP50, modeledWorstPath)) and within the 15 minute ceiling."
+  },
+  "artifacts": {
+    "html": {
+      "status": "present"
+    },
+    "md": {
+      "status": "present"
+    },
+    "pdf": {
+      "status": "present"
+    },
+    "gift": {
+      "status": "present"
+    },
+    "video": {
+      "status": "absent",
+      "reason": "Deferred under the tonight minimum acceptance profile: no video search was run for this topic and no unverified video is linked; the page carries its full explanation itself."
+    },
+    "lab": {
+      "status": "absent",
+      "reason": "No topic coding lab planned at intake: the objectives are practised in the page's own simulators and the calendar day's platform coding-lab blocks; the module PR may propose a module lab under authoring/docs/lab-contract.md"
+    }
+  },
+  "freshness": {
+    "status": "partially-verified",
+    "checkedAt": "2026-11-08",
+    "sourcesRef": "authoring/evidence/java-foundations/testing-and-java-review/code-coverage/sources.json",
+    "unverifiedItems": [
+      "Sources were fetched live by the implementation owner on 2026-11-08 (HTTP status, final URL and hash in sourcesRef); no independent SME critic re-verified the claims under the minimum acceptance profile.",
+      "The in-page practice runner is a bounded model of Java, JUnit Jupiter and Mockito; its behavior was checked by the implementation owner only, not by an independent SME critic or against javac and the JUnit Platform for every input.",
+      "JaCoCo's Coverage Counters page (fetched 2026-11-08) documents line colors from executed instructions and the diamond from executed branches; the page's \"partly covered\" marking of an if line whose decision went only one way follows the branch diamond and the practice coverage view, and is not stated for line backgrounds on that page."
+    ]
+  },
+  "licensing": [],
+  "lab": "none",
+  "components": {}
+}

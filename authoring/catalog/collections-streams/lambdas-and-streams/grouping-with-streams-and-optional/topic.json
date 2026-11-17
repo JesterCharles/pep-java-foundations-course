@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "grouping-with-streams-and-optional",
+  "title": "Grouping with streams and Optional",
+  "kind": "core",
+  "curriculum": [
+    {
+      "pointer": "/tracks/0/weeks/5/days/1/topics/3",
+      "calendarDayIds": [
+        "F27"
+      ],
+      "relation": "exact"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "text": "Group and count stream elements with Collectors.groupingBy, counting and mapping, and predict the shape of the resulting map"
+    },
+    {
+      "id": "o2",
+      "text": "Handle the Optional returned by findFirst, max or min with orElse, orElseThrow, map or ifPresent instead of calling get unchecked"
+    },
+    {
+      "id": "o3",
+      "text": "Choose Collectors.groupingBy, or Collectors.toMap with a merge function, when stream keys can repeat, instead of a toMap call that throws IllegalStateException on a duplicate key"
+    }
+  ],
+  "prerequisites": [
+    "collections-streams/lambdas-and-streams/streams-over-data-loaded-from-the-database",
+    "collections-streams/collections-in-depth/how-hashmap-works"
+  ],
+  "minutes": {
+    "aboutLabel": 11,
+    "budget": 11,
+    "modeledP50": 8.15,
+    "modeledWorstPath": 10.23,
+    "basis": "Frozen estimator on the 2026-11-04 guidance-contract bytes: P50 8.15 minutes (code editors are marked data-interaction=terminal with data-steps for their modeled edit-and-Run cycles, the estimator category already used by repository code workspaces). The worst required route adds one extra graded attempt for the shape prediction (+45 s) and the duplicate-key question (+45 s), and one extra Run for the editor (+35 s), giving 10.23 minutes. budget and aboutLabel are ceil(max(P50, worst path)) = 11, within the 15-minute ceiling."
+  },
+  "artifacts": {
+    "html": {
+      "status": "present"
+    },
+    "md": {
+      "status": "present"
+    },
+    "pdf": {
+      "status": "absent",
+      "reason": "Not applicable: core topic without a print handout; the printable PDF applies to Reading topics"
+    },
+    "gift": {
+      "status": "present"
+    },
+    "video": {
+      "status": "absent",
+      "reason": "No learner dependency added in the bounded HTML-first build; official text sources are sufficient and a separately verified video search was out of scope."
+    },
+    "lab": {
+      "status": "absent",
+      "reason": "No topic coding lab: practised in the module lab lambdas-and-streams/coding-lab, authored in the lambdas-and-streams module PR"
+    }
+  },
+  "freshness": {
+    "status": "partially-verified",
+    "checkedAt": "2026-11-04",
+    "sourcesRef": "authoring/evidence/collections-streams/lambdas-and-streams/grouping-with-streams-and-optional/sources.json",
+    "unverifiedItems": [
+      "Official Java SE 25, JLS, dev.java and PostgreSQL 18 sources linked by artifact.html returned HTTP 200 on 2026-11-04 (sources.json).",
+      "Java behavior shown by the offline practice editor was checked against a local JDK 17 for the cases recorded in readiness evidence; Java SE 25 behavior is asserted from the official sources, not from a JDK 25 run."
+    ]
+  },
+  "licensing": [],
+  "lab": "module:lambdas-and-streams",
+  "components": {}
+}

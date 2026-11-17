@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "indexes",
+  "title": "Indexes",
+  "kind": "core",
+  "curriculum": [
+    {
+      "pointer": "/tracks/0/weeks/4/days/1/topics/2",
+      "calendarDayIds": [
+        "F22"
+      ],
+      "relation": "exact"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "text": "Explain how an index speeds up a lookup and what it costs on writes and storage"
+    },
+    {
+      "id": "o2",
+      "text": "Create a B-tree index, including a multicolumn index, that matches a described query"
+    },
+    {
+      "id": "o3",
+      "text": "Identify the indexes PostgreSQL creates automatically for PRIMARY KEY and UNIQUE constraints"
+    }
+  ],
+  "prerequisites": [
+    "sql-jdbc-foundations/crud-aggregates-and-joins/filtering-and-sorting"
+  ],
+  "minutes": {
+    "aboutLabel": 11,
+    "budget": 11,
+    "modeledP50": 7.54,
+    "modeledWorstPath": 10.71,
+    "basis": "modeledP50: P50 of the frozen authoring/tools/timing/estimate_reading.py (sha256 0deca96bf5e367aeae51a82abdbd4b6ce0d0289ecc9868c9eff3701016edf96f) on this artifact.html (878 prose words, 6 code lines, interactions {\"confidence\": 2, \"drag\": 1, \"explore\": 1, \"mcq\": 1, \"predict\": 1}). modeledWorstPath: P50 plus the worst required route per interactive unit: the 1 graded check answered wrong once more (a second 45 s attempt, 5 s confidence and 15 s to read the explanations, 65 s); each of the 5 lane items placed wrong once before the right lane (10 s each); the CREATE INDEX editor run twice with an index that does not fit before settling (60 s); and the prediction explanations read in full (15 s): 7.54 + 190 s = 10.71. budget and aboutLabel: ceil(max(modeledP50, modeledWorstPath)) = 11 per authoring/docs/tools/validators.md (Reading time, T14)."
+  },
+  "artifacts": {
+    "html": {
+      "status": "present"
+    },
+    "md": {
+      "status": "present"
+    },
+    "pdf": {
+      "status": "absent",
+      "reason": "Not applicable: core topic with no declared print handout; PDF handouts are for Reading topics"
+    },
+    "gift": {
+      "status": "present"
+    },
+    "video": {
+      "status": "absent",
+      "reason": "Deferred: this module PR ships the HTML learner page first; the companion follows in a later reporting-indexes-and-review module PR"
+    },
+    "lab": {
+      "status": "absent",
+      "reason": "No topic coding lab: the page simulator gives truthful practice with PostgreSQL's documented plans; plan choice on small lab data depends on table statistics and cost settings, so a graded local lab could not be deterministic"
+    }
+  },
+  "freshness": {
+    "status": "partially-verified",
+    "checkedAt": "2026-11-07",
+    "sourcesRef": "authoring/evidence/sql-jdbc-foundations/reporting-indexes-and-review/indexes/sources.json",
+    "unverifiedItems": [
+      "Sources fetched live on 2026-11-07 (HTTP 200, receipt in sourcesRef) and the page's claims checked against the sections listed there by the author; the module SME critic then re-checked the current artifact bytes against them with no findings (exact reviewed hash in the topic's critic-sme.json).",
+      "Query results, error messages and default index names on this page were confirmed by the author on PostgreSQL 17.5 (PGlite build) on 2026-11-07; the docs describe the current release, and the SME critic has not yet re-run them on PostgreSQL 18."
+    ]
+  },
+  "licensing": [],
+  "lab": "none",
+  "components": {
+    "mcq-with-confidence": "1",
+    "predict": "1"
+  }
+}

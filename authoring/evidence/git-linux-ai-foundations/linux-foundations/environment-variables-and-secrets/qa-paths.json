@@ -1,0 +1,1032 @@
+{
+  "schemaVersion": 1,
+  "completion": {
+    "selector": "#lesson",
+    "attribute": "data-pep-complete",
+    "equals": "true"
+  },
+  "progress": {
+    "selector": "#prog-text",
+    "text": "^Activities done: 4 of 4"
+  },
+  "routes": {
+    "success": [
+      {
+        "do": "check",
+        "selector": "input[name=predict][value=a]"
+      },
+      {
+        "do": "check",
+        "selector": "input[name=pconf][value=medium]"
+      },
+      {
+        "do": "expectEnabled",
+        "selector": "#predict-check"
+      },
+      {
+        "do": "click",
+        "selector": "#predict-check"
+      },
+      {
+        "do": "expectEnabled",
+        "selector": "[data-pep-next]"
+      },
+      {
+        "do": "click",
+        "selector": "[data-pep-next]"
+      },
+      {
+        "do": "fill",
+        "selector": "#cmd-2",
+        "value": "export API_KEY"
+      },
+      {
+        "do": "press",
+        "selector": "#cmd-2",
+        "key": "Enter"
+      },
+      {
+        "do": "fill",
+        "selector": "#cmd-2",
+        "value": "./app"
+      },
+      {
+        "do": "press",
+        "selector": "#cmd-2",
+        "key": "Enter"
+      },
+      {
+        "do": "expectText",
+        "selector": "#prog-text",
+        "text": "^Activities done: 2 of 4"
+      },
+      {
+        "do": "click",
+        "selector": "[data-pep-next]"
+      },
+      {
+        "do": "click",
+        "selector": "[data-f=\"app.sh\"]"
+      },
+      {
+        "do": "click",
+        "selector": "[data-f=\".env\"]"
+      },
+      {
+        "do": "click",
+        "selector": "[data-f=\".env\"]"
+      },
+      {
+        "do": "click",
+        "selector": "[data-f=\".env.example\"]"
+      },
+      {
+        "do": "click",
+        "selector": "[data-f=\".gitignore\"]"
+      },
+      {
+        "do": "click",
+        "selector": "[data-act=checkcommit]"
+      },
+      {
+        "do": "expectText",
+        "selector": "#prog-text",
+        "text": "^Activities done: 3 of 4"
+      },
+      {
+        "do": "click",
+        "selector": "[data-pep-next]"
+      },
+      {
+        "do": "expectText",
+        "selector": "#prog-text",
+        "text": "^Activities done: 3 of 4"
+      },
+      {
+        "do": "check",
+        "selector": "input[name=apply-a][value=d]"
+      },
+      {
+        "do": "expectDisabled",
+        "selector": "#apply-check"
+      },
+      {
+        "do": "check",
+        "selector": "input[name=conf][value=high]"
+      },
+      {
+        "do": "expectEnabled",
+        "selector": "#apply-check"
+      },
+      {
+        "do": "click",
+        "selector": "#apply-check"
+      },
+      {
+        "do": "expectText",
+        "selector": "#fb-4",
+        "text": "Correct"
+      },
+      {
+        "do": "expectText",
+        "selector": "#prog-text",
+        "text": "^Activities done: 4 of 4"
+      }
+    ],
+    "wrongFirst": [
+      {
+        "do": "check",
+        "selector": "input[name=predict][value=a]"
+      },
+      {
+        "do": "check",
+        "selector": "input[name=pconf][value=medium]"
+      },
+      {
+        "do": "expectEnabled",
+        "selector": "#predict-check"
+      },
+      {
+        "do": "click",
+        "selector": "#predict-check"
+      },
+      {
+        "do": "expectEnabled",
+        "selector": "[data-pep-next]"
+      },
+      {
+        "do": "click",
+        "selector": "[data-pep-next]"
+      },
+      {
+        "do": "fill",
+        "selector": "#cmd-2",
+        "value": "export API_KEY"
+      },
+      {
+        "do": "press",
+        "selector": "#cmd-2",
+        "key": "Enter"
+      },
+      {
+        "do": "fill",
+        "selector": "#cmd-2",
+        "value": "./app"
+      },
+      {
+        "do": "press",
+        "selector": "#cmd-2",
+        "key": "Enter"
+      },
+      {
+        "do": "expectText",
+        "selector": "#prog-text",
+        "text": "^Activities done: 2 of 4"
+      },
+      {
+        "do": "click",
+        "selector": "[data-pep-next]"
+      },
+      {
+        "do": "click",
+        "selector": "[data-f=\"app.sh\"]"
+      },
+      {
+        "do": "click",
+        "selector": "[data-f=\".env\"]"
+      },
+      {
+        "do": "click",
+        "selector": "[data-f=\".env\"]"
+      },
+      {
+        "do": "click",
+        "selector": "[data-f=\".env.example\"]"
+      },
+      {
+        "do": "click",
+        "selector": "[data-f=\".gitignore\"]"
+      },
+      {
+        "do": "click",
+        "selector": "[data-act=checkcommit]"
+      },
+      {
+        "do": "expectText",
+        "selector": "#prog-text",
+        "text": "^Activities done: 3 of 4"
+      },
+      {
+        "do": "click",
+        "selector": "[data-pep-next]"
+      },
+      {
+        "do": "check",
+        "selector": "input[name=apply-a][value=a]"
+      },
+      {
+        "do": "expectDisabled",
+        "selector": "#apply-check"
+      },
+      {
+        "do": "check",
+        "selector": "input[name=conf][value=low]"
+      },
+      {
+        "do": "expectEnabled",
+        "selector": "#apply-check"
+      },
+      {
+        "do": "click",
+        "selector": "#apply-check"
+      },
+      {
+        "do": "expectText",
+        "selector": "#fb-4",
+        "text": "Not yet\\. Try once more"
+      },
+      {
+        "do": "expectVisible",
+        "selector": "#apply-check-b"
+      },
+      {
+        "do": "check",
+        "selector": "input[name=apply-b][value=b]"
+      },
+      {
+        "do": "expectEnabled",
+        "selector": "#apply-check-b"
+      },
+      {
+        "do": "click",
+        "selector": "#apply-check-b"
+      },
+      {
+        "do": "expectText",
+        "selector": "#fb-4",
+        "text": "Correct on the second try"
+      },
+      {
+        "do": "expectText",
+        "selector": "#prog-text",
+        "text": "^Activities done: 4 of 4"
+      }
+    ],
+    "wrongTwice": [
+      {
+        "do": "check",
+        "selector": "input[name=predict][value=a]"
+      },
+      {
+        "do": "check",
+        "selector": "input[name=pconf][value=medium]"
+      },
+      {
+        "do": "expectEnabled",
+        "selector": "#predict-check"
+      },
+      {
+        "do": "click",
+        "selector": "#predict-check"
+      },
+      {
+        "do": "expectEnabled",
+        "selector": "[data-pep-next]"
+      },
+      {
+        "do": "click",
+        "selector": "[data-pep-next]"
+      },
+      {
+        "do": "fill",
+        "selector": "#cmd-2",
+        "value": "export API_KEY"
+      },
+      {
+        "do": "press",
+        "selector": "#cmd-2",
+        "key": "Enter"
+      },
+      {
+        "do": "fill",
+        "selector": "#cmd-2",
+        "value": "./app"
+      },
+      {
+        "do": "press",
+        "selector": "#cmd-2",
+        "key": "Enter"
+      },
+      {
+        "do": "expectText",
+        "selector": "#prog-text",
+        "text": "^Activities done: 2 of 4"
+      },
+      {
+        "do": "click",
+        "selector": "[data-pep-next]"
+      },
+      {
+        "do": "click",
+        "selector": "[data-f=\"app.sh\"]"
+      },
+      {
+        "do": "click",
+        "selector": "[data-f=\".env\"]"
+      },
+      {
+        "do": "click",
+        "selector": "[data-f=\".env\"]"
+      },
+      {
+        "do": "click",
+        "selector": "[data-f=\".env.example\"]"
+      },
+      {
+        "do": "click",
+        "selector": "[data-f=\".gitignore\"]"
+      },
+      {
+        "do": "click",
+        "selector": "[data-act=checkcommit]"
+      },
+      {
+        "do": "expectText",
+        "selector": "#prog-text",
+        "text": "^Activities done: 3 of 4"
+      },
+      {
+        "do": "click",
+        "selector": "[data-pep-next]"
+      },
+      {
+        "do": "check",
+        "selector": "input[name=apply-a][value=a]"
+      },
+      {
+        "do": "expectDisabled",
+        "selector": "#apply-check"
+      },
+      {
+        "do": "check",
+        "selector": "input[name=conf][value=medium]"
+      },
+      {
+        "do": "expectEnabled",
+        "selector": "#apply-check"
+      },
+      {
+        "do": "click",
+        "selector": "#apply-check"
+      },
+      {
+        "do": "expectText",
+        "selector": "#fb-4",
+        "text": "Not yet\\. Try once more"
+      },
+      {
+        "do": "check",
+        "selector": "input[name=apply-b][value=a]"
+      },
+      {
+        "do": "expectEnabled",
+        "selector": "#apply-check-b"
+      },
+      {
+        "do": "click",
+        "selector": "#apply-check-b"
+      },
+      {
+        "do": "expectText",
+        "selector": "#fb-4",
+        "text": "Answered, not marked correct"
+      },
+      {
+        "do": "expectText",
+        "selector": "#prog-text",
+        "text": "^Activities done: 4 of 4 \\(1 answered, not marked correct\\)$"
+      }
+    ]
+  },
+  "simulatorEdges": [
+    {
+      "name": "unexported variable and look-alike assignment",
+      "actions": [
+        {
+          "do": "check",
+          "selector": "input[name=predict][value=a]"
+        },
+        {
+          "do": "check",
+          "selector": "input[name=pconf][value=medium]"
+        },
+        {
+          "do": "expectEnabled",
+          "selector": "#predict-check"
+        },
+        {
+          "do": "click",
+          "selector": "#predict-check"
+        },
+        {
+          "do": "expectEnabled",
+          "selector": "[data-pep-next]"
+        },
+        {
+          "do": "click",
+          "selector": "[data-pep-next]"
+        },
+        {
+          "do": "fill",
+          "selector": "#cmd-2",
+          "value": "./app"
+        },
+        {
+          "do": "press",
+          "selector": "#cmd-2",
+          "key": "Enter"
+        },
+        {
+          "do": "expectText",
+          "selector": "#log-2",
+          "text": "app: API_KEY is not set"
+        },
+        {
+          "do": "fill",
+          "selector": "#cmd-2",
+          "value": "env"
+        },
+        {
+          "do": "press",
+          "selector": "#cmd-2",
+          "key": "Enter"
+        },
+        {
+          "do": "expectText",
+          "selector": "#log-2",
+          "text": "HOME=/home/ana"
+        },
+        {
+          "do": "expectText",
+          "selector": "#fb-2",
+          "text": "env lists only exported variables"
+        },
+        {
+          "do": "fill",
+          "selector": "#cmd-2",
+          "value": "API_KEY = x"
+        },
+        {
+          "do": "press",
+          "selector": "#cmd-2",
+          "key": "Enter"
+        },
+        {
+          "do": "expectText",
+          "selector": "#log-2",
+          "text": "bash: API_KEY: command not found"
+        },
+        {
+          "do": "expectText",
+          "selector": "#prog-text",
+          "text": "^Activities done: 1 of 4"
+        },
+        {
+          "do": "expectDisabled",
+          "selector": "[data-pep-next]"
+        }
+      ]
+    },
+    {
+      "name": "exporting a different value runs but is not the task",
+      "actions": [
+        {
+          "do": "check",
+          "selector": "input[name=predict][value=a]"
+        },
+        {
+          "do": "check",
+          "selector": "input[name=pconf][value=medium]"
+        },
+        {
+          "do": "expectEnabled",
+          "selector": "#predict-check"
+        },
+        {
+          "do": "click",
+          "selector": "#predict-check"
+        },
+        {
+          "do": "expectEnabled",
+          "selector": "[data-pep-next]"
+        },
+        {
+          "do": "click",
+          "selector": "[data-pep-next]"
+        },
+        {
+          "do": "fill",
+          "selector": "#cmd-2",
+          "value": "export API_KEY=other"
+        },
+        {
+          "do": "press",
+          "selector": "#cmd-2",
+          "key": "Enter"
+        },
+        {
+          "do": "fill",
+          "selector": "#cmd-2",
+          "value": "./app"
+        },
+        {
+          "do": "press",
+          "selector": "#cmd-2",
+          "key": "Enter"
+        },
+        {
+          "do": "expectText",
+          "selector": "#log-2",
+          "text": "app: using API_KEY=other"
+        },
+        {
+          "do": "expectText",
+          "selector": "#prog-text",
+          "text": "^Activities done: 1 of 4"
+        },
+        {
+          "do": "expectDisabled",
+          "selector": "[data-pep-next]"
+        }
+      ]
+    },
+    {
+      "name": "commit check refuses undecided and unsafe sets",
+      "actions": [
+        {
+          "do": "check",
+          "selector": "input[name=predict][value=a]"
+        },
+        {
+          "do": "check",
+          "selector": "input[name=pconf][value=medium]"
+        },
+        {
+          "do": "expectEnabled",
+          "selector": "#predict-check"
+        },
+        {
+          "do": "click",
+          "selector": "#predict-check"
+        },
+        {
+          "do": "expectEnabled",
+          "selector": "[data-pep-next]"
+        },
+        {
+          "do": "click",
+          "selector": "[data-pep-next]"
+        },
+        {
+          "do": "fill",
+          "selector": "#cmd-2",
+          "value": "export API_KEY"
+        },
+        {
+          "do": "press",
+          "selector": "#cmd-2",
+          "key": "Enter"
+        },
+        {
+          "do": "fill",
+          "selector": "#cmd-2",
+          "value": "./app"
+        },
+        {
+          "do": "press",
+          "selector": "#cmd-2",
+          "key": "Enter"
+        },
+        {
+          "do": "click",
+          "selector": "[data-pep-next]"
+        },
+        {
+          "do": "click",
+          "selector": "[data-act=checkcommit]"
+        },
+        {
+          "do": "expectText",
+          "selector": "#fb-3",
+          "text": "Decide all four files first"
+        },
+        {
+          "do": "click",
+          "selector": "[data-f=\"app.sh\"]"
+        },
+        {
+          "do": "click",
+          "selector": "[data-f=\".env\"]"
+        },
+        {
+          "do": "click",
+          "selector": "[data-f=\".env.example\"]"
+        },
+        {
+          "do": "click",
+          "selector": "[data-f=\".gitignore\"]"
+        },
+        {
+          "do": "click",
+          "selector": "[data-act=checkcommit]"
+        },
+        {
+          "do": "expectText",
+          "selector": "#fb-3",
+          "text": "Not safe yet\\. 1 file needs"
+        },
+        {
+          "do": "expectText",
+          "selector": "#prog-text",
+          "text": "^Activities done: 2 of 4"
+        },
+        {
+          "do": "expectDisabled",
+          "selector": "[data-pep-next]"
+        }
+      ]
+    }
+  ],
+  "restart": {
+    "actions": [
+      {
+        "do": "check",
+        "selector": "input[name=predict][value=a]"
+      },
+      {
+        "do": "check",
+        "selector": "input[name=pconf][value=medium]"
+      },
+      {
+        "do": "expectEnabled",
+        "selector": "#predict-check"
+      },
+      {
+        "do": "click",
+        "selector": "#predict-check"
+      },
+      {
+        "do": "expectEnabled",
+        "selector": "[data-pep-next]"
+      },
+      {
+        "do": "click",
+        "selector": "[data-pep-next]"
+      },
+      {
+        "do": "fill",
+        "selector": "#cmd-2",
+        "value": "export API_KEY"
+      },
+      {
+        "do": "press",
+        "selector": "#cmd-2",
+        "key": "Enter"
+      },
+      {
+        "do": "fill",
+        "selector": "#cmd-2",
+        "value": "./app"
+      },
+      {
+        "do": "press",
+        "selector": "#cmd-2",
+        "key": "Enter"
+      },
+      {
+        "do": "expectText",
+        "selector": "#prog-text",
+        "text": "^Activities done: 2 of 4"
+      },
+      {
+        "do": "expectText",
+        "selector": "#prog-text",
+        "text": "^Activities done: 2 of 4"
+      },
+      {
+        "do": "expectEnabled",
+        "selector": "[data-pep-next]"
+      },
+      {
+        "do": "click",
+        "selector": "#reset"
+      },
+      {
+        "do": "expectText",
+        "selector": "#prog-text",
+        "text": "^Activities done: 1 of 4"
+      },
+      {
+        "do": "expectAttribute",
+        "selector": "#activity-2",
+        "attribute": "data-pep-continue",
+        "equals": "false"
+      },
+      {
+        "do": "fill",
+        "selector": "#cmd-2",
+        "value": "export API_KEY"
+      },
+      {
+        "do": "press",
+        "selector": "#cmd-2",
+        "key": "Enter"
+      },
+      {
+        "do": "fill",
+        "selector": "#cmd-2",
+        "value": "./app"
+      },
+      {
+        "do": "press",
+        "selector": "#cmd-2",
+        "key": "Enter"
+      },
+      {
+        "do": "expectText",
+        "selector": "#prog-text",
+        "text": "^Activities done: 2 of 4"
+      },
+      {
+        "do": "expectEnabled",
+        "selector": "[data-pep-next]"
+      }
+    ],
+    "credit": {
+      "selector": "#prog-text",
+      "text": "^Activities done: 2 of 4$"
+    }
+  },
+  "keyboard": [
+    {
+      "do": "check",
+      "selector": "input[name=predict][value=a]"
+    },
+    {
+      "do": "check",
+      "selector": "input[name=pconf][value=medium]"
+    },
+    {
+      "do": "expectEnabled",
+      "selector": "#predict-check"
+    },
+    {
+      "do": "click",
+      "selector": "#predict-check"
+    },
+    {
+      "do": "expectEnabled",
+      "selector": "[data-pep-next]"
+    },
+    {
+      "do": "click",
+      "selector": "[data-pep-next]"
+    },
+    {
+      "do": "fill",
+      "selector": "#cmd-2",
+      "value": "export API_KEY"
+    },
+    {
+      "do": "press",
+      "selector": "#cmd-2",
+      "key": "Enter"
+    },
+    {
+      "do": "fill",
+      "selector": "#cmd-2",
+      "value": "./app"
+    },
+    {
+      "do": "press",
+      "selector": "#cmd-2",
+      "key": "Enter"
+    },
+    {
+      "do": "expectText",
+      "selector": "#prog-text",
+      "text": "^Activities done: 2 of 4"
+    },
+    {
+      "do": "click",
+      "selector": "[data-pep-next]"
+    },
+    {
+      "do": "click",
+      "selector": "[data-f=\"app.sh\"]"
+    },
+    {
+      "do": "click",
+      "selector": "[data-f=\".env\"]"
+    },
+    {
+      "do": "click",
+      "selector": "[data-f=\".env\"]"
+    },
+    {
+      "do": "click",
+      "selector": "[data-f=\".env.example\"]"
+    },
+    {
+      "do": "click",
+      "selector": "[data-f=\".gitignore\"]"
+    },
+    {
+      "do": "click",
+      "selector": "[data-act=checkcommit]"
+    },
+    {
+      "do": "expectText",
+      "selector": "#prog-text",
+      "text": "^Activities done: 3 of 4"
+    },
+    {
+      "do": "click",
+      "selector": "[data-pep-next]"
+    },
+    {
+      "do": "expectText",
+      "selector": "#prog-text",
+      "text": "^Activities done: 3 of 4"
+    },
+    {
+      "do": "check",
+      "selector": "input[name=apply-a][value=d]"
+    },
+    {
+      "do": "expectDisabled",
+      "selector": "#apply-check"
+    },
+    {
+      "do": "check",
+      "selector": "input[name=conf][value=high]"
+    },
+    {
+      "do": "expectEnabled",
+      "selector": "#apply-check"
+    },
+    {
+      "do": "click",
+      "selector": "#apply-check"
+    },
+    {
+      "do": "expectText",
+      "selector": "#fb-4",
+      "text": "Correct"
+    },
+    {
+      "do": "expectText",
+      "selector": "#prog-text",
+      "text": "^Activities done: 4 of 4"
+    }
+  ],
+  "guidance": {
+    "activityNavigation": [
+      {
+        "do": "check",
+        "selector": "input[name=predict][value=b]"
+      },
+      {
+        "do": "check",
+        "selector": "input[name=pconf][value=medium]"
+      },
+      {
+        "do": "click",
+        "selector": "#predict-check"
+      },
+      {
+        "do": "click",
+        "selector": "[data-pep-next]"
+      },
+      {
+        "do": "fill",
+        "selector": "#cmd-2",
+        "value": "echo $API_KEY"
+      },
+      {
+        "do": "press",
+        "selector": "#cmd-2",
+        "key": "Enter"
+      },
+      {
+        "do": "fill",
+        "selector": "#cmd-2",
+        "value": "env"
+      }
+    ],
+    "activityNavigationKeyboard": [
+      {
+        "do": "check",
+        "selector": "input[name=predict][value=b]"
+      },
+      {
+        "do": "check",
+        "selector": "input[name=pconf][value=medium]"
+      },
+      {
+        "do": "click",
+        "selector": "#predict-check"
+      },
+      {
+        "do": "click",
+        "selector": "[data-pep-next]"
+      },
+      {
+        "do": "fill",
+        "selector": "#cmd-2",
+        "value": "echo $API_KEY"
+      },
+      {
+        "do": "press",
+        "selector": "#cmd-2",
+        "key": "Enter"
+      },
+      {
+        "do": "fill",
+        "selector": "#cmd-2",
+        "value": "env"
+      }
+    ],
+    "activityNavigationTouch": [
+      {
+        "do": "check",
+        "selector": "input[name=predict][value=b]"
+      },
+      {
+        "do": "check",
+        "selector": "input[name=pconf][value=medium]"
+      },
+      {
+        "do": "click",
+        "selector": "#predict-check"
+      },
+      {
+        "do": "click",
+        "selector": "[data-pep-next]"
+      },
+      {
+        "do": "fill",
+        "selector": "#cmd-2",
+        "value": "echo $API_KEY"
+      },
+      {
+        "do": "press",
+        "selector": "#cmd-2",
+        "key": "Enter"
+      },
+      {
+        "do": "fill",
+        "selector": "#cmd-2",
+        "value": "env"
+      }
+    ],
+    "objectives": [
+      {
+        "do": "click",
+        "selector": "[data-pep-objectives] > summary"
+      },
+      {
+        "do": "expectVisible",
+        "selector": "#pep-objectives-body"
+      },
+      {
+        "do": "press",
+        "selector": "[data-pep-objectives] > summary",
+        "key": "Escape"
+      },
+      {
+        "do": "expectHidden",
+        "selector": "#pep-objectives-body"
+      }
+    ],
+    "objectivesTouch": [
+      {
+        "do": "click",
+        "selector": "[data-pep-objectives] > summary"
+      },
+      {
+        "do": "expectVisible",
+        "selector": "#pep-objectives-body"
+      },
+      {
+        "do": "click",
+        "selector": "[data-pep-objectives] > summary"
+      },
+      {
+        "do": "expectHidden",
+        "selector": "#pep-objectives-body"
+      }
+    ],
+    "hints": true
+  }
+}

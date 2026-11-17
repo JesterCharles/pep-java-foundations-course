@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "artifactHashes": {
+    "artifact.html": "c44ad3b55234d6c93079c3eb1df7fd794718342fa3a348c590d8562a52209706",
+    "artifact.md": "eb1f7a09a7ee40ab590fc1017dc5402c73ab28baf969ddc9dd39ced3c6d56549"
+  },
+  "viewports": [
+    {
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "zoom": 1
+    },
+    {
+      "width": 1366,
+      "height": 681,
+      "theme": "light",
+      "zoom": 1
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "theme": "dark",
+      "zoom": 1
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "theme": "light",
+      "zoom": 1
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "theme": "dark",
+      "zoom": 1
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "theme": "light",
+      "zoom": 1
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "theme": "light",
+      "zoom": 2
+    }
+  ],
+  "checks": [
+    {
+      "id": "T09",
+      "status": "pass",
+      "detail": "passed"
+    },
+    {
+      "id": "T10",
+      "status": "pass",
+      "detail": "passed"
+    },
+    {
+      "id": "T11",
+      "status": "pass",
+      "detail": "passed"
+    },
+    {
+      "id": "T12",
+      "status": "pass",
+      "detail": "passed"
+    },
+    {
+      "id": "T13",
+      "status": "pass",
+      "detail": "passed"
+    },
+    {
+      "id": "T18",
+      "status": "pass",
+      "detail": "Markdown parity passed"
+    }
+  ],
+  "passCount": 6,
+  "toolVersions": {
+    "node": "24.2.0",
+    "playwright": "1.55.0",
+    "axeCorePlaywright": "4.10.2",
+    "chromium": "140.0.7339.16"
+  },
+  "privateSuccessProof": {
+    "record": "validated at 5609ef830e8f5f5604041a232eb0e8cd26998086 by run tjr-truthfix-mocking-1794532331-success",
+    "runId": "tjr-truthfix-mocking-1794532331-success",
+    "ranAt": "2026-11-13T01:12:13Z",
+    "environment": {
+      "node": "24.2.0",
+      "playwright": "1.55.0",
+      "platform": "darwin-arm64"
+    },
+    "result": "pass",
+    "stagingRetired": true,
+    "publicBindings": [
+      {
+        "file": "java-foundations/testing-and-java-review/mocking-with-mockito/artifact.html",
+        "reviewedSha256": "c44ad3b55234d6c93079c3eb1df7fd794718342fa3a348c590d8562a52209706"
+      },
+      {
+        "file": "authoring/evidence/java-foundations/testing-and-java-review/mocking-with-mockito/qa-paths.json",
+        "reviewedSha256": "a1a20a7b5f27ebaf9d34ac8cf35e1076679d2fe602a8f93a7e6b674ac4a02771"
+      },
+      {
+        "file": "authoring/tools/qa/harness.mjs",
+        "reviewedSha256": "35651c1b756540afc9d0a289d4844c3d2d2c1fed3d1b7c7ccc5707eb20904ec2"
+      },
+      {
+        "file": "authoring/tools/qa/python-answer-scan.py",
+        "reviewedSha256": "51f8a1e597842facb87aabb94c0683cb88ee8c3dcf6216b6284de53020628143"
+      },
+      {
+        "file": "authoring/tools/checks/T08-html-static.mjs",
+        "reviewedSha256": "6fcb012d5c32c31f04d7ad326a104b814782ef19d38799acb8c6642443bf9dd4"
+      }
+    ],
+    "commit": "5609ef830e8f5f5604041a232eb0e8cd26998086"
+  }
+}

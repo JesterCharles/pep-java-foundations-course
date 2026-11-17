@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "linear-and-binary-search",
+  "title": "Linear and binary search",
+  "kind": "core",
+  "curriculum": [
+    {
+      "pointer": "/tracks/0/weeks/1/days/2/topics/1",
+      "calendarDayIds": [
+        "F8"
+      ],
+      "relation": "exact"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "text": "Write a linear search that returns the index of a target or -1"
+    },
+    {
+      "id": "o2",
+      "text": "Trace binary search on a sorted array, narrowing the low and high bounds each step"
+    },
+    {
+      "id": "o3",
+      "text": "Explain why binary search requires sorted input and how its step count grows with input size"
+    }
+  ],
+  "prerequisites": [
+    "java-foundations/arrays-lists-and-maps/declaring-and-looping-over-arrays",
+    "java-foundations/methods-and-recursion/writing-methods"
+  ],
+  "minutes": {
+    "aboutLabel": 13,
+    "budget": 13,
+    "modeledP50": 9.16,
+    "modeledWorstPath": 12.16,
+    "basis": "Measured on 2026-11-07 from the final corrected artifact bytes. modeledP50: p50 of authoring/tools/timing/estimate_reading.py on the current artifact.html. modeledWorstPath: modeledP50 plus 3.0 minutes for the worst required route (the wrong-twice route): reading the feedback on a wrong prediction (0.5), one wrong step and its feedback in the exploration (0.5), two non-matching editor runs with Problems and Output read each time (1.5), and the apply retry in its second form (0.5). aboutLabel and budget = ceil(max(modeledP50, modeledWorstPath)), within the 15 minute ceiling."
+  },
+  "artifacts": {
+    "html": {
+      "status": "present"
+    },
+    "md": {
+      "status": "present"
+    },
+    "pdf": {
+      "status": "absent",
+      "reason": "Not applicable: core topic with no print handout; the PDF applies only to pages derived from Reading source rows"
+    },
+    "gift": {
+      "status": "present"
+    },
+    "video": {
+      "status": "absent",
+      "reason": "Deferred by the module author checkpoint: no video search was run for this checkpoint, and no unverified video is linked; the page carries its full explanation itself."
+    },
+    "lab": {
+      "status": "absent",
+      "reason": "No topic coding lab planned at intake: the objectives are practised in the page's own simulators and the calendar day's platform coding-lab blocks; the module PR may propose a module lab under authoring/docs/lab-contract.md"
+    }
+  },
+  "freshness": {
+    "status": "partially-verified",
+    "checkedAt": "2026-11-07",
+    "sourcesRef": "authoring/evidence/java-foundations/arrays-lists-and-maps/linear-and-binary-search/sources.json",
+    "unverifiedItems": [
+      "Sources were fetched live by the author on 2026-11-07 (HTTP 200, receipt in sourcesRef); focused Java-SME re-review of the changed claims is pending.",
+      "The bounded interpreter differential and the page examples were rechecked by the author with OpenJDK 25.0.5; focused Java-SME re-review is pending."
+    ]
+  },
+  "licensing": [],
+  "lab": "none",
+  "components": {}
+}

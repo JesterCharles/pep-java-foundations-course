@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "reviewedSha256": "70bc3d2fa53962a3c62b00655eb8857c38b7296b4e1eeba6b75f383815c35404",
+  "checkedAt": "2026-11-09T17:07:24.403Z",
+  "sources": [
+    {
+      "url": "https://git-scm.com/docs/git-stash",
+      "retrievedAt": "2026-11-09T17:07:24.403Z",
+      "status": 200,
+      "finalUrl": "https://git-scm.com/docs/git-stash",
+      "sha256": "15e47e297247a37f5ef9276000fa863f82fff4ab854d4d556bd1dd4f9c2713c1",
+      "sectionsUsed": [
+        "description",
+        "options"
+      ]
+    },
+    {
+      "url": "https://git-scm.com/docs/git-switch",
+      "retrievedAt": "2026-11-09T17:07:24.403Z",
+      "status": 200,
+      "finalUrl": "https://git-scm.com/docs/git-switch",
+      "sha256": "7ae3de20811176cf87081d4055e42500e2bbb6dfd65ab5f7ff918f7347268f1a",
+      "sectionsUsed": [
+        "description"
+      ]
+    }
+  ]
+}

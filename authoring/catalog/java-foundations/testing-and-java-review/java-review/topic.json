@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "java-review",
+  "title": "Java review: core language, HTTP with Javalin, testing",
+  "kind": "review",
+  "curriculum": [
+    {
+      "pointer": "/tracks/0/weeks/3/days/2/topics/0",
+      "calendarDayIds": [
+        "F18"
+      ],
+      "relation": "exact"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "text": "Retrieve core language rules for types, control flow, methods and classes to predict a program's output"
+    },
+    {
+      "id": "o2",
+      "text": "Trace a Javalin request through route, handler and status code"
+    },
+    {
+      "id": "o3",
+      "text": "Choose the right assertion or test double for a unit test"
+    }
+  ],
+  "prerequisites": [
+    "java-foundations/testing-and-java-review/junit-test-first",
+    "java-foundations/testing-and-java-review/mocking-with-mockito",
+    "java-foundations/http-and-javalin/routes-and-handlers-in-javalin",
+    "java-foundations/classes-and-objects/double-equals-vs-equals"
+  ],
+  "minutes": {
+    "aboutLabel": 14,
+    "budget": 14,
+    "modeledP50": 11.44,
+    "modeledWorstPath": 12.94,
+    "basis": "Measured on 2026-11-08 from the final artifact bytes. modeledP50: p50 of authoring/tools/timing/estimate_reading.py on the current artifact.html. modeledWorstPath: modeledP50 plus 1.5 minutes for the worst required route (the wrong-twice route): reading the feedback on a wrong output prediction (0.5), extra tracer requests that repeat a status before all three are seen (0.5), and the wrong-first test-body choice retried (0.5). aboutLabel and budget equal the page's own about label, which is at least ceil(max(modeledP50, modeledWorstPath)) and within the 15 minute ceiling."
+  },
+  "artifacts": {
+    "html": {
+      "status": "present"
+    },
+    "md": {
+      "status": "present"
+    },
+    "pdf": {
+      "status": "absent",
+      "reason": "Not applicable: review topic; review topics carry HTML and Markdown only"
+    },
+    "gift": {
+      "status": "absent",
+      "reason": "Not applicable: review topic; the review page is itself retrieval practice, so review topics carry HTML and Markdown only"
+    },
+    "video": {
+      "status": "absent",
+      "reason": "Not applicable: review topic; review topics carry HTML and Markdown only"
+    },
+    "lab": {
+      "status": "absent",
+      "reason": "No topic coding lab planned at intake: the objectives are practised in the page's own simulators and the calendar day's platform coding-lab blocks; the module PR may propose a module lab under authoring/docs/lab-contract.md"
+    }
+  },
+  "freshness": {
+    "status": "partially-verified",
+    "checkedAt": "2026-11-08",
+    "sourcesRef": "authoring/evidence/java-foundations/testing-and-java-review/java-review/sources.json",
+    "unverifiedItems": [
+      "Sources were fetched live by the implementation owner on 2026-11-08 (HTTP status, final URL and hash in sourcesRef); no independent SME critic re-verified the claims under the minimum acceptance profile.",
+      "The request tracer follows only the two routes shown on the page; it is not Javalin and was checked by the implementation owner only."
+    ]
+  },
+  "licensing": [],
+  "lab": "none",
+  "components": {}
+}

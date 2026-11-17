@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "access-modifiers",
+  "title": "Access modifiers",
+  "kind": "core",
+  "curriculum": [
+    {
+      "pointer": "/tracks/0/weeks/1/days/3/topics/2",
+      "calendarDayIds": [
+        "F9"
+      ],
+      "relation": "exact"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "text": "Apply private, package-private, protected and public to fields and methods"
+    },
+    {
+      "id": "o2",
+      "text": "Predict whether code in another class or package compiles against a given modifier"
+    },
+    {
+      "id": "o3",
+      "text": "Choose the most restrictive access that still lets the code work"
+    }
+  ],
+  "prerequisites": [
+    "java-foundations/classes-and-objects/classes-and-objects"
+  ],
+  "minutes": {
+    "aboutLabel": 15,
+    "budget": 15,
+    "modeledP50": 7.77,
+    "modeledWorstPath": 14.35,
+    "basis": "Frozen estimator P50 7.77 min on the authored page. Worst required path adds modeled seconds on top of P50: 60 s reading feedback and per-option explanations across the four activities; 50 s for a wrong first apply answer and its retry with a second confidence rating; 15 s per lane item for one wrong press and its feedback (7 items); 180 s for two checked editor tries that miss before the coding activity settles. Worst path 14.35 min; budget and aboutLabel are ceil(max(P50, worst path)) = 15, under the 15 minute ceiling."
+  },
+  "artifacts": {
+    "html": {
+      "status": "present"
+    },
+    "md": {
+      "status": "present"
+    },
+    "pdf": {
+      "status": "absent",
+      "reason": "Not applicable: core topic with no print handout; the PDF applies only to pages derived from Reading source rows"
+    },
+    "gift": {
+      "status": "present"
+    },
+    "video": {
+      "status": "absent",
+      "reason": "Deferred: no video search was run in this HTML-first build; a later change for this module records the search and links a verified video or records its absence."
+    },
+    "lab": {
+      "status": "absent",
+      "reason": "No topic coding lab planned at intake: the objectives are practised in the page's own simulators and the calendar day's platform coding-lab blocks; the module PR may propose a module lab under authoring/docs/lab-contract.md"
+    }
+  },
+  "freshness": {
+    "status": "verified",
+    "checkedAt": "2026-11-06",
+    "sourcesRef": "authoring/evidence/java-foundations/classes-and-objects/access-modifiers/sources.json",
+    "unverifiedItems": []
+  },
+  "licensing": [],
+  "lab": "none",
+  "components": {}
+}

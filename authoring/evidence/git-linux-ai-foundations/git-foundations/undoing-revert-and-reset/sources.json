@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "reviewedSha256": "ce81ef65dc7b2bac09d27a8ab45beb2968c949f09fbe0ff575bb8ca6a58f9508",
+  "checkedAt": "2026-11-09T17:07:24.261Z",
+  "sources": [
+    {
+      "url": "https://git-scm.com/docs/git-revert",
+      "retrievedAt": "2026-11-09T17:07:24.261Z",
+      "status": 200,
+      "finalUrl": "https://git-scm.com/docs/git-revert",
+      "sha256": "ba574fd9df721510d59dcc8c5d1a331b643c06374218daeeeb667cffe3af4b9f",
+      "sectionsUsed": [
+        "description"
+      ]
+    },
+    {
+      "url": "https://git-scm.com/docs/git-reset",
+      "retrievedAt": "2026-11-09T17:07:24.261Z",
+      "status": 200,
+      "finalUrl": "https://git-scm.com/docs/git-reset",
+      "sha256": "77c44c446f35e8b42cd3f9b4022328e1fe9ad77644f7c46c8fcc48e94d71ea53",
+      "sectionsUsed": [
+        "options"
+      ]
+    },
+    {
+      "url": "https://git-scm.com/docs/git-push",
+      "retrievedAt": "2026-11-09T17:07:24.261Z",
+      "status": 200,
+      "finalUrl": "https://git-scm.com/docs/git-push",
+      "sha256": "2e451f3ceb4558bd8e40edafa157a5b7c1fd8b366f22d77340c1767dd44cf5ee",
+      "sectionsUsed": [
+        "note about fast forwards"
+      ]
+    }
+  ]
+}

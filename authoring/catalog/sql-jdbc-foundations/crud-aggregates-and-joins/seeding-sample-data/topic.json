@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "seeding-sample-data",
+  "title": "Seeding sample data",
+  "kind": "core",
+  "curriculum": [
+    {
+      "pointer": "/tracks/0/weeks/3/days/4/topics/1",
+      "calendarDayIds": [
+        "F20"
+      ],
+      "relation": "exact"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "text": "Write a seed script that inserts parent rows before child rows so every foreign key holds"
+    },
+    {
+      "id": "o2",
+      "text": "Generate many sample rows with INSERT ... SELECT and generate_series"
+    },
+    {
+      "id": "o3",
+      "text": "Load rows from a CSV file with the psql \\copy command and explain how it differs from server-side COPY"
+    }
+  ],
+  "prerequisites": [
+    "insert-update-and-delete"
+  ],
+  "minutes": {
+    "aboutLabel": 13,
+    "budget": 13,
+    "modeledP50": 9.6,
+    "modeledWorstPath": 12.93,
+    "basis": "modeledP50: P50 of the frozen authoring/tools/timing/estimate_reading.py (sha256 0deca96bf5e367aeae51a82abdbd4b6ce0d0289ecc9868c9eff3701016edf96f) on this artifact.html (1356 prose words, 11 code lines, interactions {\"predict\": 1, \"confidence\": 2, \"explore\": 2, \"mcq\": 1}). modeledWorstPath: P50 plus the worst required route per interactive unit: the prediction's per-option explanations read in full (15 s), each of the two SQL editor tasks run a second time after one wrong run (60 s each), and the apply check answered wrong once (a second 45 s attempt, 5 s and 15 s to read the explanations, 65 s): 9.60 + 200 s = 12.93. budget and aboutLabel: ceil(max(modeledP50, modeledWorstPath)) = 13 per authoring/docs/tools/validators.md (Reading time, T14); raised from the intake target of 10 because the authored page's honest minimum is higher, never compressed."
+  },
+  "artifacts": {
+    "html": {
+      "status": "present"
+    },
+    "md": {
+      "status": "present"
+    },
+    "pdf": {
+      "status": "absent",
+      "reason": "Not applicable: core topic with no declared print handout; PDF handouts are for Reading topics"
+    },
+    "gift": {
+      "status": "present"
+    },
+    "video": {
+      "status": "absent",
+      "reason": "Not yet authored: deferred from the first HTML build of the crud-aggregates-and-joins module PR; HTML is the first deliverable."
+    },
+    "lab": {
+      "status": "absent",
+      "reason": "No topic coding lab: the planned crud-aggregates-and-joins module coding lab is not yet authored, so the objectives are practised in the page's bounded SQL editor activities."
+    }
+  },
+  "freshness": {
+    "status": "partially-verified",
+    "checkedAt": "2026-10-27",
+    "sourcesRef": "authoring/evidence/sql-jdbc-foundations/crud-aggregates-and-joins/seeding-sample-data/sources.json",
+    "unverifiedItems": [
+      "Sources fetched live on 2026-10-16, with SET CONSTRAINTS fetched on 2026-10-27 for foreign-key check timing (HTTP 200, receipt in sourcesRef) and the page claims checked against the listed sections by the author; the module SME critic has not yet re-verified them.",
+      "Editor outputs and ERROR/DETAIL messages were compared by the author with real PostgreSQL 18.6 (PGlite) and psql 18.3 on the same sample tables; the SME critic has not yet re-verified them."
+    ]
+  },
+  "licensing": [],
+  "lab": "module:crud-aggregates-and-joins",
+  "components": {}
+}

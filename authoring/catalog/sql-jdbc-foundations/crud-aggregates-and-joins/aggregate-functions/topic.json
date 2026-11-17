@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "aggregate-functions",
+  "title": "Aggregate functions",
+  "kind": "core",
+  "curriculum": [
+    {
+      "pointer": "/tracks/0/weeks/3/days/4/topics/4",
+      "calendarDayIds": [
+        "F20"
+      ],
+      "relation": "exact"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "text": "Summarize rows with COUNT, SUM, AVG, MIN and MAX"
+    },
+    {
+      "id": "o2",
+      "text": "Explain how COUNT(*) differs from COUNT(column) and how aggregate functions treat NULL values"
+    }
+  ],
+  "prerequisites": [
+    "handling-nulls-coalesce-and-case"
+  ],
+  "minutes": {
+    "aboutLabel": 12,
+    "budget": 12,
+    "modeledP50": 8.02,
+    "modeledWorstPath": 11.35,
+    "basis": "modeledP50: P50 of the frozen authoring/tools/timing/estimate_reading.py (sha256 0deca96bf5e367aeae51a82abdbd4b6ce0d0289ecc9868c9eff3701016edf96f) on this artifact.html (1054 prose words, 10 code lines, interactions {\"predict\": 1, \"confidence\": 2, \"explore\": 2, \"mcq\": 1}). modeledWorstPath: P50 plus the worst required route per interactive unit: the prediction explanations (15 s), each SQL editor task run a second time after one wrong run (60 s each), and the apply check answered wrong once (65 s): 8.02 + 200 s = 11.35. budget and aboutLabel: ceil(max(modeledP50, modeledWorstPath)) = 12 per authoring/docs/tools/validators.md (Reading time, T14); raised from the intake target of 10 because the authored page's honest minimum is higher, never compressed."
+  },
+  "artifacts": {
+    "html": {
+      "status": "present"
+    },
+    "md": {
+      "status": "present"
+    },
+    "pdf": {
+      "status": "absent",
+      "reason": "Not applicable: core topic with no declared print handout; PDF handouts are for Reading topics"
+    },
+    "gift": {
+      "status": "present"
+    },
+    "video": {
+      "status": "absent",
+      "reason": "Not yet authored: deferred from the first HTML build of the crud-aggregates-and-joins module PR; HTML is the first deliverable."
+    },
+    "lab": {
+      "status": "absent",
+      "reason": "No topic coding lab: the planned crud-aggregates-and-joins module coding lab is not yet authored, so the objectives are practised in the page's bounded SQL editor activities."
+    }
+  },
+  "freshness": {
+    "status": "partially-verified",
+    "checkedAt": "2026-10-27",
+    "sourcesRef": "authoring/evidence/sql-jdbc-foundations/crud-aggregates-and-joins/aggregate-functions/sources.json",
+    "unverifiedItems": [
+      "Sources fetched live on 2026-10-16, with the aggregate, mathematical-operator and conditional pages fetched on 2026-10-27 for the activity 4 percentage (HTTP 200, receipt in sourcesRef) and the page claims checked against the listed sections by the author; the module SME critic has not yet re-verified them.",
+      "Bounded-editor outputs were compared with the shared SQL simulator's real-PostgreSQL differential baseline and direct page smoke queries; the SME critic has not yet independently re-verified them."
+    ]
+  },
+  "licensing": [],
+  "lab": "module:crud-aggregates-and-joins",
+  "components": {}
+}

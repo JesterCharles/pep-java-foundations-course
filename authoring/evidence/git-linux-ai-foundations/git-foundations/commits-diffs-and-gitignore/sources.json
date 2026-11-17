@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "reviewedSha256": "1c705de75d36fcaec49e35253f8dfb8b37ca5192d6240a4956494e635fa4ed96",
+  "checkedAt": "2026-11-09T17:07:23.678Z",
+  "sources": [
+    {
+      "url": "https://git-scm.com/docs/git-add",
+      "retrievedAt": "2026-11-09T17:07:23.678Z",
+      "status": 200,
+      "finalUrl": "https://git-scm.com/docs/git-add",
+      "sha256": "6c80dc3ccd41718b77749cfba5aa917434c2893ca551bdc283b7fdacf85f63ad",
+      "sectionsUsed": [
+        "description"
+      ]
+    },
+    {
+      "url": "https://git-scm.com/docs/git-diff",
+      "retrievedAt": "2026-11-09T17:07:23.678Z",
+      "status": 200,
+      "finalUrl": "https://git-scm.com/docs/git-diff",
+      "sha256": "d7fb2aa01e52aca30ed9d62fe5302bab72c3a30fa17efc24caaabce6e97f2991",
+      "sectionsUsed": [
+        "description"
+      ]
+    },
+    {
+      "url": "https://git-scm.com/docs/git-commit",
+      "retrievedAt": "2026-11-09T17:07:23.678Z",
+      "status": 200,
+      "finalUrl": "https://git-scm.com/docs/git-commit",
+      "sha256": "595cd590193b960fa06b38fceab390a2f2de0c953b99560a06a60905b1dd56ee",
+      "sectionsUsed": [
+        "description"
+      ]
+    },
+    {
+      "url": "https://git-scm.com/docs/gitignore",
+      "retrievedAt": "2026-11-09T17:07:23.678Z",
+      "status": 200,
+      "finalUrl": "https://git-scm.com/docs/gitignore",
+      "sha256": "8eeb3719ba7000e8702fb3b3b5135f415f449d798a8201c6b22bae91181f2cc7",
+      "sectionsUsed": [
+        "description"
+      ]
+    },
+    {
+      "url": "https://git-scm.com/docs/git-restore",
+      "retrievedAt": "2026-11-09T17:07:23.678Z",
+      "status": 200,
+      "finalUrl": "https://git-scm.com/docs/git-restore",
+      "sha256": "a534c542b405c5f1d4f851254c12d938bb64b9ea7ac4d4d821edc600bcdc6c59",
+      "sectionsUsed": [
+        "options"
+      ]
+    }
+  ]
+}

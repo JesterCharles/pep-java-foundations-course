@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "lambdas-and-functional-interfaces-in-depth",
+  "title": "Lambdas and functional interfaces in depth",
+  "kind": "core",
+  "curriculum": [
+    {
+      "pointer": "/tracks/0/weeks/5/days/1/topics/0",
+      "calendarDayIds": [
+        "F27"
+      ],
+      "relation": "exact"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "text": "Write lambdas for Predicate, Function, Consumer and Supplier, and combine them with and, negate and andThen"
+    },
+    {
+      "id": "o2",
+      "text": "Explain what makes an interface functional (exactly one abstract method) and what the @FunctionalInterface annotation makes the compiler check"
+    },
+    {
+      "id": "o3",
+      "text": "Explain why a lambda can use only effectively final local variables, and fix code that breaks this rule"
+    }
+  ],
+  "prerequisites": [
+    "java-foundations",
+    "collections-streams/collections-in-depth/sorting-with-comparator"
+  ],
+  "minutes": {
+    "aboutLabel": 15,
+    "budget": 15,
+    "modeledP50": 12.3,
+    "modeledWorstPath": 14.97,
+    "basis": "Frozen estimator on the 2026-11-06 correction bytes: P50 12.3 minutes (code editors are marked data-interaction=terminal with data-steps for their modeled edit-and-Run cycles, the estimator category already used by repository code workspaces). The worst required route adds one extra graded attempt for the functional-rule set (+45 s) and the captured-local question (+45 s), and one extra Run for each of the two editors (+35 s each), giving 14.97 minutes. budget and aboutLabel are ceil(max(P50, worst path)) = 15, within the 15-minute ceiling."
+  },
+  "artifacts": {
+    "html": {
+      "status": "present"
+    },
+    "md": {
+      "status": "present"
+    },
+    "pdf": {
+      "status": "absent",
+      "reason": "Not applicable: core topic without a print handout; the printable PDF applies to Reading topics"
+    },
+    "gift": {
+      "status": "present"
+    },
+    "video": {
+      "status": "absent",
+      "reason": "No learner dependency added in the bounded HTML-first build; official text sources are sufficient and a separately verified video search was out of scope."
+    },
+    "lab": {
+      "status": "absent",
+      "reason": "No topic coding lab: practised in the module lab lambdas-and-streams/coding-lab, authored in the lambdas-and-streams module PR"
+    }
+  },
+  "freshness": {
+    "status": "partially-verified",
+    "checkedAt": "2026-11-06",
+    "sourcesRef": "authoring/evidence/collections-streams/lambdas-and-streams/lambdas-and-functional-interfaces-in-depth/sources.json",
+    "unverifiedItems": [
+      "Official Java SE 25, JLS, dev.java and PostgreSQL 18 sources linked by artifact.html returned HTTP 200 on 2026-11-06 (sources.json).",
+      "Java behavior shown by the offline practice editor was checked against a local JDK 17 for the cases recorded in readiness evidence; Java SE 25 behavior is asserted from the official sources, not from a JDK 25 run."
+    ]
+  },
+  "licensing": [],
+  "lab": "module:lambdas-and-streams",
+  "components": {}
+}

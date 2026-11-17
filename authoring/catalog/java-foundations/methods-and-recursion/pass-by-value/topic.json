@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "pass-by-value",
+  "title": "Pass-by-value",
+  "kind": "core",
+  "curriculum": [
+    {
+      "pointer": "/tracks/0/weeks/1/days/0/topics/3",
+      "calendarDayIds": [
+        "F6"
+      ],
+      "relation": "exact"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "text": "Predict that reassigning a primitive parameter leaves the caller's variable unchanged"
+    },
+    {
+      "id": "o2",
+      "text": "Predict that reassigning a String parameter inside a method leaves the caller's variable referring to its original String"
+    },
+    {
+      "id": "o3",
+      "text": "Explain that Java passes every argument by value, and that for an object the value copied is the reference"
+    }
+  ],
+  "prerequisites": [
+    "java-foundations/methods-and-recursion/writing-methods"
+  ],
+  "minutes": {
+    "aboutLabel": 15,
+    "budget": 15,
+    "modeledP50": 11.9,
+    "modeledWorstPath": 14.9,
+    "basis": "Measured on 2026-10-16. modeledP50 is the frozen authoring/tools/timing/estimate_reading.py result for the current artifact.html bytes. modeledWorstPath adds 3.00 minutes for six wrong graded attempts (two in each of three activities, at 0.5 minutes each) before formative explanations. Successful learner inputs remain private, so qa-paths.json commits negative regressions only. aboutLabel and budget remain within the 15-minute ceiling; optional hints, anecdote, challenge, cheat sheet and sources are data-section-skip and excluded. modeledP50 was re-measured on 2026-11-06 for the guidance-contract Objectives migration bytes; the worst-path allowance is unchanged."
+  },
+  "artifacts": {
+    "html": {
+      "status": "present"
+    },
+    "md": {
+      "status": "present"
+    },
+    "pdf": {
+      "status": "absent",
+      "reason": "Not applicable: core topic with no print handout; the PDF applies only to pages derived from Reading source rows"
+    },
+    "gift": {
+      "status": "present"
+    },
+    "video": {
+      "status": "absent",
+      "reason": "Not authored in the HTML-first methods-and-recursion batch (captain intent: HTML is the minimum deliverable); a later companion pass for this module authors it from the reviewed artifact.html. No video search was run in this batch."
+    },
+    "lab": {
+      "status": "absent",
+      "reason": "No topic coding lab planned at intake: the objectives are practised in the page's own simulators and the calendar day's platform coding-lab blocks; the module PR may propose a module lab under authoring/docs/lab-contract.md"
+    }
+  },
+  "freshness": {
+    "status": "partially-verified",
+    "checkedAt": "2026-10-16",
+    "sourcesRef": "authoring/evidence/java-foundations/methods-and-recursion/pass-by-value/sources.json",
+    "unverifiedItems": [
+      "Sources re-fetched live on 2026-10-16 (HTTP status and hashes in sourcesRef); the author checked the page claims against the sections listed there. The module Java-SME critic has not yet re-verified them.",
+      "Program outputs and javac messages shown on the page and produced by the practice editor were compared with a local JDK 17.0.12 javac/java run on 2026-10-16, not with JDK 25; the cited SE 25 rules are unchanged for these constructs, but a JDK 25 run has not been recorded.",
+      "The tracer’s ref # numbers are practice-editor labels for object identity, not values a real JVM prints."
+    ]
+  },
+  "licensing": [],
+  "lab": "none",
+  "components": {}
+}

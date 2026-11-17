@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "final-and-tostring",
+  "title": "Reading: final and toString",
+  "kind": "reading",
+  "curriculum": [
+    {
+      "pointer": "/tracks/0/weeks/2/days/0/topics/3",
+      "calendarDayIds": [
+        "F11"
+      ],
+      "relation": "exact"
+    }
+  ],
+  "objectives": [
+    {
+      "id": "o1",
+      "text": "Tell what final means on a variable, a method and a class"
+    },
+    {
+      "id": "o2",
+      "text": "Explain that final stops reassignment of a reference but not changes to the object it points to"
+    },
+    {
+      "id": "o3",
+      "text": "Override toString to give an object a readable text form"
+    }
+  ],
+  "prerequisites": [
+    "java-foundations/classes-and-objects/stack-vs-heap-and-object-references"
+  ],
+  "minutes": {
+    "aboutLabel": 15,
+    "budget": 15,
+    "modeledP50": 7.95,
+    "modeledWorstPath": 14.78,
+    "basis": "Frozen estimator P50 7.95 min on the authored page. Worst required path adds modeled seconds on top of P50: 60 s reading feedback and per-option explanations across the four activities; 50 s for a wrong first apply answer and its retry with a second confidence rating; 15 s per lane item for one wrong press and its feedback (8 items); 180 s for two checked editor tries that miss before the coding activity settles. Worst path 14.78 min; budget and aboutLabel are ceil(max(P50, worst path)) = 15, under the 15 minute ceiling."
+  },
+  "artifacts": {
+    "html": {
+      "status": "present"
+    },
+    "md": {
+      "status": "present"
+    },
+    "pdf": {
+      "status": "absent",
+      "reason": "Deferred: the print handout is rendered from artifact.md in a later change for this module; the HTML page already prints completely with every disclosure expanded."
+    },
+    "gift": {
+      "status": "present"
+    },
+    "video": {
+      "status": "absent",
+      "reason": "Deferred: no video search was run in this HTML-first build; a later change for this module records the search and links a verified video or records its absence."
+    },
+    "lab": {
+      "status": "absent",
+      "reason": "No topic coding lab planned at intake: the objectives are practised in the page's own simulators and the calendar day's platform coding-lab blocks; the module PR may propose a module lab under authoring/docs/lab-contract.md"
+    }
+  },
+  "freshness": {
+    "status": "verified",
+    "checkedAt": "2026-11-06",
+    "sourcesRef": "authoring/evidence/java-foundations/classes-and-objects/final-and-tostring/sources.json",
+    "unverifiedItems": []
+  },
+  "licensing": [],
+  "lab": "none",
+  "components": {}
+}
